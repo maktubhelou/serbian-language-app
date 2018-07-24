@@ -835,34 +835,122 @@
             English: 'Whose?'
         }
     ],
-    category: [
+    days: [
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'ponedeljak',
+            English: 'Monday'
         },
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'utorak',
+            English: 'Tuesday'
         },
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'sreda',
+            English: 'Wednesday'
         },
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'četvrtak',
+            English: 'Thursday'
         },
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'petak',
+            English: 'Friday'
         },
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'subota',
+            English: 'Saturday'
         },
         {
-            Serbian: '',
-            English: ''
+            Serbian: 'nedelja',
+            English: 'Sunday'
+        },
+        {
+            Serbian: 'danas',
+            English: 'today'
+        },
+        {
+            Serbian: 'sutra',
+            English: 'tomorrow'
+        },
+        {
+            Serbian: 'prekosutra',
+            English: 'the day after tomorrow'
+        },
+        {
+            Serbian: 'juče',
+            English: 'yesterday'
+        },
+        {
+            Serbian: 'prekjuče',
+            English: 'the day before yesterday'
+        },
+        {
+            Serbian: 'dan',
+            English: 'day'
+        },
+        {
+            Serbian: 'radni dan',
+            English: 'workday'
+        },
+        {
+            Serbian: 'prazničan dan',
+            English: 'holiday'
+        },
+        {
+            Serbian: 'slobodni dan',
+            English: 'day off'
+        },
+        {
+            Serbian: 'vikend',
+            English: 'weekend'
+        },
+        {
+            Serbian: 'ceo dan',
+            English: 'all day long'
+        },
+        {
+            Serbian: 'sutradan',
+            English: 'next day'
+        },
+        {
+            Serbian: 'pre dva dana',
+            English: 'two days ago'
+        },
+        {
+            Serbian: 'uoči',
+            English: 'shortly before'
+        },
+        {
+            Serbian: 'svakodnevni',
+            English: 'daily'
+        },
+        {
+            Serbian: 'svaki dan',
+            English: 'every day'
+        },
+        {
+            Serbian: 'prošlog meseca',
+            English: 'last month'
+        },
+        {
+            Serbian: 'iduće nedelje',
+            English: 'next week'
+        },
+        {
+            Serbian: 'nedeljni',
+            English: 'weekly'
+        },
+        {
+            Serbian: 'nedeljno',
+            English: 'every week'
+        },
+        {
+            Serbian: 'dva puta nedeljno',
+            English: 'twice a week'
+        },
+        {
+            Serbian: 'svakog utorka',
+            English: 'every Tuesday'
         }
     ],
     category: [
