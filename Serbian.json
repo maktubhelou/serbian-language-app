@@ -1,2062 +1,2578 @@
-export default vocab = {
-    greetings: [
-        'Zdravo!',
-        'Dobar dan!',
-        'Dobro jutro!',
-        'Dobro veče!',
-        'pozdravljati se',
-        'pozdrav (n)',
-        'pozdravljati (vt)',
-        'Kako si?',
-        'Kako ste?',
-        'šta',
-        'Do viđenja! (fam.)',
-        'Do skorog viđenja!',
-        'Zbogom!',
-        'Do viđenja! (form.)',
-        'opraštati se',
-        'Hvala!',
-        'Hvala lepo!',
-        'Izvolite!',
-        'Nema na čemu',
-        'Izvini',
-        'Izvinite',
-        'izvinjavati',
-        'izvinjavati se',
-        'izvinjavam se',
-        'Oprostite',
-        'opraštati',
-        'molim',
-        'Nemojte da zaboravite!',
-        'Svakako',
-        'Razume se ne!',
-        'Slažem se!',
-        'Dosta!'
+{
+    "greetings": [
+        "Zdravo!",
+        "Dobar dan!",
+        "Dobro jutro!",
+        "Dobro veče!",
+        "pozdravljati se",
+        "pozdrav (n)",
+        "pozdravljati (vt)",
+        "Kako si?",
+        "Kako ste?",
+        "šta",
+        "Do viđenja! (fam.)",
+        "Do skorog viđenja!",
+        "Zbogom!",
+        "Do viđenja! (form.)",
+        "opraštati se",
+        "Hvala!",
+        "Hvala lepo!",
+        "Izvolite!",
+        "Nema na čemu",
+        "Izvini",
+        "Izvinite",
+        "izvinjavati",
+        "izvinjavati se",
+        "izvinjavam se",
+        "Oprostite",
+        "opraštati",
+        "molim",
+        "Nemojte da zaboravite!",
+        "Svakako",
+        "Razume se ne!",
+        "Slažem se!",
+        "Dosta!"
     ],
-    address: [
-        'Gospodine',
-        'Gospđo',
-        'Devojko',
-        'Mladiću',
-        'Dečko',
-        'Devojčice'
+    "address": [
+        "Gospodine",
+        "Gospđo",
+        "Devojko",
+        "Mladiću",
+        "Dečko",
+        "Devojčice"
     ],
-    colors: [
+    "colors": [
         {
-            Serbian: 'boja',
-            English: 'colour'
+            "serbian": "boja",
+            "english": "colour"
         },
         {
-            Serbian: 'nijansa',
-            English: 'shade'
+            "serbian": "nijansa",
+            "english": "shade"
         },
         {
-            Serbian: 'duga',
-            English: 'rainbow'
+            "serbian": "duga",
+            "english": "rainbow"
         },
         {
-            Serbian: 'beo',
-            English: 'white'
+            "serbian": "beo",
+            "english": "white"
         },
         {
-            Serbian: 'crn',
-            English: 'black'
+            "serbian": "crn",
+            "english": "black"
         },
         {
-            Serbian: 'siv',
-            English: 'gray'
+            "serbian": "siv",
+            "english": "gray"
         },
         {
-            Serbian: 'zelen',
-            English: 'green'
+            "serbian": "zelen",
+            "english": "green"
         },
         {
-            Serbian: 'žut',
-            English: 'yellow'
+            "serbian": "žut",
+            "english": "yellow"
         },
         {
-            Serbian: 'crven',
-            English: 'red'
+            "serbian": "crven",
+            "english": "red"
         },
         {
-            Serbian: 'modar',
-            English: 'blue'
+            "serbian": "modar",
+            "english": "blue"
         },
         {
-            Serbian: 'plav',
-            English: 'light blue'
+            "serbian": "plav",
+            "english": "light blue"
         },
         {
-            Serbian: 'ružičast',
-            English: 'pink'
+            "serbian": "ružičast",
+            "english": "pink"
         },
         {
-            Serbian: 'narandžast',
-            English: 'orange'
+            "serbian": "narandžast",
+            "english": "orange"
         },
         {
-            Serbian: 'ljubičast',
-            English: 'violet'
+            "serbian": "ljubičast",
+            "english": "violet"
         },
         {
-            Serbian: 'smeđ',
-            English: 'brown'
+            "serbian": "smeđ",
+            "english": "brown"
         },
         {
-            Serbian: 'slatan',
-            English: 'golden'
+            "serbian": "slatan",
+            "english": "golden"
         },
         {
-            Serbian: 'srebrni',
-            English: 'silver'
+            "serbian": "srebrni",
+            "english": "silver"
         },
         {
-            Serbian: 'bež',
-            English: 'beige'
+            "serbian": "bež",
+            "english": "beige"
         },
         {
-            Serbian: 'krem boje',
-            English: 'cream (colour)'
+            "serbian": "krem boje",
+            "english": "cream (colour)"
         },
         {
-            Serbian: 'tirkizni',
-            English: 'turquoise'
+            "serbian": "tirkizni",
+            "english": "turquoise"
         },
         {
-            Serbian: 'boja višnje',
-            English: 'cherry (colour)'
+            "serbian": "boja višnje",
+            "english": "cherry (colour)"
         },
         {
-            Serbian: 'boja maline',
-            English: 'raspberry (colour)'
+            "serbian": "boja maline",
+            "english": "raspberry (colour)"
         },
         {
-            Serbian: 'svetao',
-            English: 'light'
+            "serbian": "svetao",
+            "english": "light"
         },
         {
-            Serbian: 'taman',
-            English: 'dark'
+            "serbian": "taman",
+            "english": "dark"
         },
         {
-            Serbian: 'sjajan',
-            English: 'bright'
+            "serbian": "sjajan",
+            "english": "bright"
         },
         {
-            Serbian: 'obojen',
-            English: 'coloured'
+            "serbian": "obojen",
+            "english": "coloured"
         },
         {
-            Serbian: 'u boji',
-            English: 'colour (in film)'
+            "serbian": "u boji",
+            "english": "colour (in film)"
         },
         {
-            Serbian: 'crno-beli',
-            English: 'black-and-white'
+            "serbian": "crno-beli",
+            "english": "black-and-white"
         },
         {
-            Serbian: 'jednobojan',
-            English: 'plain (one color)'
+            "serbian": "jednobojan",
+            "english": "plain (one color)"
         },
         {
-            Serbian: 'raznobojan',
-            English: 'multicoloured'
+            "serbian": "raznobojan",
+            "english": "multicoloured"
         }
     ],
-    verbs: [
+    "verbs": [
         {
-            Serbian: 'savetovati',
-            English: 'to advise'
+            "serbian": "savetovati",
+            "english": "to advise"
         },
         {
-            Serbian: 'slagati se',
-            English: 'to agree (say yes)'
+            "serbian": "slagati se",
+            "english": "to agree (say yes)"
         },
         {
-            Serbian: 'odgovarati',
-            English: 'to answer'
+            "serbian": "odgovarati",
+            "english": "to answer"
         },
         {
-            Serbian: 'iznijavati se',
-            English: 'to apologize'
+            "serbian": "iznijavati se",
+            "english": "to apologize"
         },
         {
-            Serbian: 'dolaziti',
-            English: 'to arrive'
+            "serbian": "dolaziti",
+            "english": "to arrive"
         },
         {
-            Serbian: 'moliti se',
-            English: 'to pray'
+            "serbian": "moliti se",
+            "english": "to pray"
         },
         {
-            Serbian: 'pitati',
-            English: 'to ask (a question)'
+            "serbian": "pitati",
+            "english": "to ask (a question)"
         },
         {
-            Serbian: 'plašiti se, bojati se',
-            English: 'to be afraid'
+            "serbian": "plašiti se, bojati se",
+            "english": "to be afraid"
         },
         {
-            Serbian: 'biti gladan',
-            English: 'to be hungry'
+            "serbian": "biti gladan",
+            "english": "to be hungry"
         },
         {
-            Serbian: 'interesovati se',
-            English: 'to be interested in'
+            "serbian": "interesovati se",
+            "english": "to be interested in"
         },
         {
-            Serbian: 'trebati',
-            English: 'to be necessary'
+            "serbian": "trebati",
+            "english": "to be necessary"
         },
         {
-            Serbian: 'iznenađivati se',
-            English: 'to be surprised'
+            "serbian": "iznenađivati se",
+            "english": "to be surprised"
         },
         {
-            Serbian: 'biti žedan',
-            English: 'to be thirsty'
+            "serbian": "biti žedan",
+            "english": "to be thirsty"
         },
         {
-            Serbian: 'počinjati',
-            English: 'to start (begin)'
+            "serbian": "počinjati",
+            "english": "to start (begin)"
         },
         {
-            Serbian: 'pripadati',
-            English: 'to belong to'
+            "serbian": "pripadati",
+            "english": "to belong to"
         },
         {
-            Serbian: 'hvalisati se',
-            English: 'to boast'
+            "serbian": "hvalisati se",
+            "english": "to boast"
         },
         {
-            Serbian: 'lomiti se',
-            English: 'to break (split into pieces)'
+            "serbian": "lomiti se",
+            "english": "to break (split into pieces)"
         },
         {
-            Serbian: 'zvati',
-            English: 'to call'
+            "serbian": "zvati",
+            "english": "to call"
         },
         {
-            Serbian: 'moći',
-            English: 'can (modal verb)'
+            "serbian": "moći",
+            "english": "can (modal verb)"
         },
         {
-            Serbian: 'loviti',
-            English: 'to hunt'
+            "serbian": "loviti",
+            "english": "to hunt"
         },
         {
-            Serbian: 'promeniti',
-            English: 'to change'
+            "serbian": "promeniti",
+            "english": "to change"
         },
         {
-            Serbian: 'birati',
-            English: 'to choose'
+            "serbian": "birati",
+            "english": "to choose"
         },
         {
-            Serbian: 'spuštati se',
-            English: 'to come down'
+            "serbian": "spuštati se",
+            "english": "to come down"
         },
         {
-            Serbian: 'ući',
-            English: 'to come in (enter)'
+            "serbian": "ući",
+            "english": "to come in (enter)"
         },
         {
-            Serbian: 'upoređivati (vt)',
-            English: 'to compare'
+            "serbian": "upoređivati (vt)",
+            "english": "to compare"
         },
         {
-            Serbian: 'kontrolisati',
-            English: 'to control'
+            "serbian": "kontrolisati",
+            "english": "to control"
         },
         {
-            Serbian: 'kuvati',
-            English: 'to cook'
+            "serbian": "kuvati",
+            "english": "to cook"
         },
         {
-            Serbian: 'koštati',
-            English: 'to cost'
+            "serbian": "koštati",
+            "english": "to cost"
         },
         {
-            Serbian: 'računati',
-            English: 'to count up (add up)'
+            "serbian": "računati",
+            "english": "to count up (add up)"
         },
         {
-            Serbian: 'računati na',
-            English: 'to count on'
+            "serbian": "računati na",
+            "english": "to count on"
         },
         {
-            Serbian: 'stvoriti',
-            English: 'to create'
+            "serbian": "stvoriti",
+            "english": "to create"
         },
         {
-            Serbian: 'plakati',
-            English: 'to cry (weep)'
+            "serbian": "plakati",
+            "english": "to cry (weep)"
         },
         {
-            Serbian: 'varati',
-            English: 'to deceive'
+            "serbian": "varati",
+            "english": "to deceive"
         },
         {
-            Serbian: 'kititi',
-            English: 'to decorate'
+            "serbian": "kititi",
+            "english": "to decorate"
         },
         {
-            Serbian: 'braniti',
-            English: 'to defend'
+            "serbian": "braniti",
+            "english": "to defend"
         },
         {
-            Serbian: 'zahtevati',
-            English: 'to demand'
+            "serbian": "zahtevati",
+            "english": "to demand"
         },
         {
-            Serbian: 'kopati',
-            English: 'to dig'
+            "serbian": "kopati",
+            "english": "to dig"
         },
         {
-            Serbian: 'rukovoditi',
-            English: 'to direct (supervise)'
+            "serbian": "rukovoditi",
+            "english": "to direct (supervise)"
         },
         {
-            Serbian: 'diskutovati',
-            English: 'to discuss'
+            "serbian": "diskutovati",
+            "english": "to discuss"
         },
         {
-            Serbian: 'raditi',
-            English: 'to work'
+            "serbian": "raditi",
+            "english": "to work"
         },
         {
-            Serbian: 'sumnjavati se',
-            English: 'to doubt (have doubts)'
+            "serbian": "sumnjavati se",
+            "english": "to doubt (have doubts)"
         },
         {
-            Serbian: 'ispuštati',
-            English: 'to drop (let fall)'
+            "serbian": "ispuštati",
+            "english": "to drop (let fall)"
         },
         {
-            Serbian: 'postojati',
-            English: 'to exist'
+            "serbian": "postojati",
+            "english": "to exist"
         },
         {
-            Serbian: 'predvideti',
-            English: 'to expect (foresee)'
+            "serbian": "predvideti",
+            "english": "to expect (foresee)"
         },
         {
-            Serbian: 'objašnjavati',
-            English: 'to explain'
+            "serbian": "objašnjavati",
+            "english": "to explain"
         },
         {
-            Serbian: 'padati',
-            English: 'to fall'
+            "serbian": "padati",
+            "english": "to fall"
         },
         {
-            Serbian: 'nalaziti',
-            English: 'to find'
+            "serbian": "nalaziti",
+            "english": "to find"
         },
         {
-            Serbian: 'završavati',
-            English: 'to finish'
+            "serbian": "završavati",
+            "english": "to finish"
         },
         {
-            Serbian: 'leteti',
-            English: 'to fly'
+            "serbian": "leteti",
+            "english": "to fly"
         },
         {
-            Serbian: 'pratiti',
-            English: 'to follow'
+            "serbian": "pratiti",
+            "english": "to follow"
         },
         {
-            Serbian: 'zaboravljati',
-            English: 'to forget'
+            "serbian": "zaboravljati",
+            "english": "to forget"
         },
         {
-            Serbian: 'opraštati',
-            English: 'to forgive'
+            "serbian": "opraštati",
+            "english": "to forgive"
         },
         {
-            Serbian: 'davati',
-            English: 'to give'
+            "serbian": "davati",
+            "english": "to give"
         },
         {
-            Serbian: 'ići',
-            English: 'to go (by walking)'
+            "serbian": "ići",
+            "english": "to go (by walking)"
         },
         {
-            Serbian: 'kupati se',
-            English: 'to go for a swim'
+            "serbian": "kupati se",
+            "english": "to go for a swim"
         },
         {
-            Serbian: 'izlaziti',
-            English: 'to go out'
+            "serbian": "izlaziti",
+            "english": "to go out"
         },
         {
-            Serbian: 'odgonetnuti',
-            English: 'to guess correctly'
+            "serbian": "odgonetnuti",
+            "english": "to guess correctly"
         },
         {
-            Serbian: 'imati',
-            English: 'to have'
+            "serbian": "imati",
+            "english": "to have"
         },
         {
-            Serbian: 'doručkovati',
-            English: 'to have breakfast'
+            "serbian": "doručkovati",
+            "english": "to have breakfast"
         },
         {
-            Serbian: 'večerati',
-            English: 'to have dinner'
+            "serbian": "večerati",
+            "english": "to have dinner"
         },
         {
-            Serbian: 'ručati',
-            English: 'to have lunch'
+            "serbian": "ručati",
+            "english": "to have lunch"
         },
         {
-            Serbian: 'čuti',
-            English: 'to hear'
+            "serbian": "čuti",
+            "english": "to hear"
         },
         {
-            Serbian: 'pomagati',
-            English: 'to help'
+            "serbian": "pomagati",
+            "english": "to help"
         },
         {
-            Serbian: 'kriti',
-            English: 'to hide'
+            "serbian": "kriti",
+            "english": "to hide"
         },
         {
-            Serbian: 'aludirati',
-            English: 'to hint'
+            "serbian": "aludirati",
+            "english": "to hint"
         },
         {
-            Serbian: 'nadati se',
-            English: 'to hope'
+            "serbian": "nadati se",
+            "english": "to hope"
         },
         {
-            Serbian: 'loviti',
-            English: 'to hunt'
+            "serbian": "loviti",
+            "english": "to hunt"
         },
         {
-            Serbian: 'žuriti se',
-            English: 'to hurry'
+            "serbian": "žuriti se",
+            "english": "to hurry"
         },
         {
-            Serbian: 'informirati',
-            English: 'to inform'
+            "serbian": "informirati",
+            "english": "to inform"
         },
         {
-            Serbian: 'insistirati',
-            English: 'to insist'
+            "serbian": "insistirati",
+            "english": "to insist"
         },
         {
-            Serbian: 'vređati',
-            English: 'to insult'
+            "serbian": "vređati",
+            "english": "to insult"
         },
         {
-            Serbian: 'pozivati',
-            English: 'to invite'
+            "serbian": "pozivati",
+            "english": "to invite"
         },
         {
-            Serbian: 'šaliti se',
-            English: 'to joke'
+            "serbian": "šaliti se",
+            "english": "to joke"
         },
         {
-            Serbian: 'čuvati',
-            English: 'to keep'
+            "serbian": "čuvati",
+            "english": "to keep"
         },
         {
-            Serbian: 'ćutati',
-            English: 'to keep quiet'
+            "serbian": "ćutati",
+            "english": "to keep quiet"
         },
         {
-            Serbian: 'ubijati',
-            English: 'to kill'
+            "serbian": "ubijati",
+            "english": "to kill"
         },
         {
-            Serbian: 'poznavati',
-            English: 'to know (someone)'
+            "serbian": "poznavati",
+            "english": "to know (someone)"
         },
         {
-            Serbian: 'znati',
-            English: 'to know (something)'
+            "serbian": "znati",
+            "english": "to know (something)"
         },
         {
-            Serbian: 'smejati se',
-            English: 'to laugh'
+            "serbian": "smejati se",
+            "english": "to laugh"
         },
         {
-            Serbian: 'oslobođavati',
-            English: 'to liberate'
+            "serbian": "oslobođavati",
+            "english": "to liberate"
         },
         {
-            Serbian: 'sviđati se',
-            English: 'to like'
+            "serbian": "sviđati se",
+            "english": "to like"
         },
         {
-            Serbian: 'tražiti',
-            English: 'to search'
+            "serbian": "tražiti",
+            "english": "to search"
         },
         {
-            Serbian: 'voleti',
-            English: 'to love (someone)'
+            "serbian": "voleti",
+            "english": "to love (someone)"
         },
         {
-            Serbian: 'grešiti',
-            English: 'to make a mistake'
+            "serbian": "grešiti",
+            "english": "to make a mistake"
         },
         {
-            Serbian: 'označavati',
-            English: 'to mean (signify)'
+            "serbian": "označavati",
+            "english": "to mean (signify)"
         },
         {
-            Serbian: 'spominjati',
-            English: 'to mention'
+            "serbian": "spominjati",
+            "english": "to mention"
         },
         {
-            Serbian: 'propuštati',
-            English: 'to miss (an event)'
+            "serbian": "propuštati",
+            "english": "to miss (an event)"
         },
         {
-            Serbian: 'brkati',
-            English: 'to confuse'
+            "serbian": "brkati",
+            "english": "to confuse"
         },
         {
-            Serbian: 'zapažati',
-            English: 'to notice'
+            "serbian": "zapažati",
+            "english": "to notice"
         },
         {
-            Serbian: 'zamerati',
-            English: 'to reproach'
+            "serbian": "zamerati",
+            "english": "to reproach"
         },
         {
-            Serbian: 'gledati',
-            English: 'to observe'
+            "serbian": "gledati",
+            "english": "to observe"
         },
         {
-            Serbian: 'otvarati',
-            English: 'to open'
+            "serbian": "otvarati",
+            "english": "to open"
         },
         {
-            Serbian: 'naručivati',
-            English: 'to order (a meal)'
+            "serbian": "naručivati",
+            "english": "to order (a meal)"
         },
         {
-            Serbian: 'naređivati',
-            English: 'to give an order'
+            "serbian": "naređivati",
+            "english": "to give an order"
         },
         {
-            Serbian: 'vladati',
-            English: 'to rule, to master'
+            "serbian": "vladati",
+            "english": "to rule, to master"
         },
         {
-            Serbian: 'učestvovati',
-            English: 'to participate'
+            "serbian": "učestvovati",
+            "english": "to participate"
         },
         {
-            Serbian: 'platiti',
-            English: 'to pay'
+            "serbian": "platiti",
+            "english": "to pay"
         },
         {
-            Serbian: 'rešavati',
-            English: 'to solve'
+            "serbian": "rešavati",
+            "english": "to solve"
         },
         {
-            Serbian: 'planirati',
-            English: 'to plan'
+            "serbian": "planirati",
+            "english": "to plan"
         },
         {
-            Serbian: 'igrati',
-            English: 'to play'
+            "serbian": "igrati",
+            "english": "to play"
         },
         {
-            Serbian: 'moliti se',
-            English: 'to pray'
+            "serbian": "moliti se",
+            "english": "to pray"
         },
         {
-            Serbian: 'davati prednost',
-            English: 'to prefer, to give an advantage'
+            "serbian": "davati prednost",
+            "english": "to prefer, to give an advantage"
         },
         {
-            Serbian: 'obećavati',
-            English: 'to promise'
+            "serbian": "obećavati",
+            "english": "to promise"
         },
         {
-            Serbian: 'izgovarati',
-            English: 'to pronounce'
+            "serbian": "izgovarati",
+            "english": "to pronounce"
         },
         {
-            Serbian: 'nuditi',
-            English: 'to offer, to propose (an idea)'
+            "serbian": "nuditi",
+            "english": "to offer, to propose (an idea)"
         },
         {
-            Serbian: 'kažnjavati',
-            English: 'to punish'
+            "serbian": "kažnjavati",
+            "english": "to punish"
         },
         {
-            Serbian: 'čitati',
-            English: 'to read'
+            "serbian": "čitati",
+            "english": "to read"
         },
         {
-            Serbian: 'preporučiti',
-            English: 'to recommend'
+            "serbian": "preporučiti",
+            "english": "to recommend"
         },
         {
-            Serbian: 'odbiti se',
-            English: 'to refuse'
+            "serbian": "odbiti se",
+            "english": "to refuse"
         },
         {
-            Serbian: 'žaliti',
-            English: 'to regret'
+            "serbian": "žaliti",
+            "english": "to regret"
         },
         {
-            Serbian: 'iznajmljivati',
-            English: 'to rent (of a tenant)'
+            "serbian": "iznajmljivati",
+            "english": "to rent (of a tenant)"
         },
         {
-            Serbian: 'ponovljati se',
-            English: 'to repeat (say again)'
+            "serbian": "ponovljati se",
+            "english": "to repeat (say again)"
         },
         {
-            Serbian: 'rezervisati',
-            English: 'to reserve'
+            "serbian": "rezervisati",
+            "english": "to reserve"
         },
         {
-            Serbian: 'trčati',
-            English: 'to run'
+            "serbian": "trčati",
+            "english": "to run"
         },
         {
-            Serbian: 'spasavati',
-            English: 'to rescue (save)'
+            "serbian": "spasavati",
+            "english": "to rescue (save)"
         },
         {
-            Serbian: 'reći',
-            English: 'to say'
+            "serbian": "reći",
+            "english": "to say"
         },
         {
-            Serbian: 'grditi',
-            English: 'to scold'
+            "serbian": "grditi",
+            "english": "to scold"
         },
         {
-            Serbian: 'videti',
-            English: 'to see'
+            "serbian": "videti",
+            "english": "to see"
         },
         {
-            Serbian: 'prodavati',
-            English: 'to sell (goods)'
+            "serbian": "prodavati",
+            "english": "to sell (goods)"
         },
         {
-            Serbian: 'slati',
-            English: 'to send'
+            "serbian": "slati",
+            "english": "to send"
         },
         {
-            Serbian: 'pucati',
-            English: 'to shoot'
+            "serbian": "pucati",
+            "english": "to shoot"
         },
         {
-            Serbian: 'vikati',
-            English: 'to shout'
+            "serbian": "vikati",
+            "english": "to shout"
         },
         {
-            Serbian: 'pokazivati',
-            English: 'to show'
+            "serbian": "pokazivati",
+            "english": "to show"
         },
         {
-            Serbian: 'potpisivati',
-            English: 'to sign (document)'
+            "serbian": "potpisivati",
+            "english": "to sign (document)"
         },
         {
-            Serbian: 'sedati',
-            English: 'to sit down'
+            "serbian": "sedati",
+            "english": "to sit down"
         },
         {
-            Serbian: 'osmehivati se',
-            English: 'to smile'
+            "serbian": "osmehivati se",
+            "english": "to smile"
         },
         {
-            Serbian: 'rasgovarati',
-            English: 'to talk, to conversate'
+            "serbian": "rasgovarati",
+            "english": "to talk, to conversate"
         },
         {
-            Serbian: 'krasti',
-            English: 'to steal (money)'
+            "serbian": "krasti",
+            "english": "to steal (money)"
         },
         {
-            Serbian: 'prekidati',
-            English: 'to stop (cease)'
+            "serbian": "prekidati",
+            "english": "to stop (cease)"
         },
         {
-            Serbian: 'zaustavljati se',
-            English: 'to stop'
+            "serbian": "zaustavljati se",
+            "english": "to stop"
         },
         {
-            Serbian: 'proučavati',
-            English: 'to study'
+            "serbian": "proučavati",
+            "english": "to study"
         },
         {
-            Serbian: 'plivati',
-            English: 'to swim'
+            "serbian": "plivati",
+            "english": "to swim"
         },
         {
-            Serbian: 'brati',
-            English: 'to pick, to harvest'
+            "serbian": "brati",
+            "english": "to pick, to harvest"
         },
         {
-            Serbian: 'misliti',
-            English: 'to think'
+            "serbian": "misliti",
+            "english": "to think"
         },
         {
-            Serbian: 'pretiti',
-            English: 'to threaten'
+            "serbian": "pretiti",
+            "english": "to threaten"
         },
         {
-            Serbian: 'dirati',
-            English: 'to touch (by hands)'
+            "serbian": "dirati",
+            "english": "to touch (by hands)"
         },
         {
-            Serbian: 'prevoditi',
-            English: 'to translate'
+            "serbian": "prevoditi",
+            "english": "to translate"
         },
         {
-            Serbian: 'poveravati',
-            English: 'to trust'
+            "serbian": "poveravati",
+            "english": "to trust"
         },
         {
-            Serbian: 'probati',
-            English: 'to try (attempt)'
+            "serbian": "probati",
+            "english": "to try (attempt)"
         },
         {
-            Serbian: 'skretati',
-            English: 'to turn (change direction)'
+            "serbian": "skretati",
+            "english": "to turn (change direction)"
         },
         {
-            Serbian: 'potcenjivati',
-            English: 'to underestimate'
+            "serbian": "potcenjivati",
+            "english": "to underestimate"
         },
         {
-            Serbian: 'razumenevati',
-            English: 'to understand'
+            "serbian": "razumenevati",
+            "english": "to understand"
         },
         {
-            Serbian: 'objedinjavati',
-            English: 'to unite (join)'
+            "serbian": "objedinjavati",
+            "english": "to unite (join)"
         },
         {
-            Serbian: 'čekati',
-            English: 'to wait'
+            "serbian": "čekati",
+            "english": "to wait"
         },
         {
-            Serbian: 'hteti',
-            English: 'to want (wish, desire)'
+            "serbian": "hteti",
+            "english": "to want (wish, desire)"
         },
         {
-            Serbian: 'opominjati',
-            English: 'to warn (of danger)'
+            "serbian": "opominjati",
+            "english": "to warn (of danger)"
         },
         {
-            Serbian: 'raditi',
-            English: 'to work'
+            "serbian": "raditi",
+            "english": "to work"
         },
         {
-            Serbian: 'pisati',
-            English: 'to write'
+            "serbian": "pisati",
+            "english": "to write"
         },
         {
-            Serbian: 'zapisivati',
-            English: 'to write down'
+            "serbian": "zapisivati",
+            "english": "to write down"
         }
     ],
-    questions: [
+    "questions": [
         {
-            Serbian: 'Ko?',
-            English: 'Who?'
+            "serbian": "Ko?",
+            "english": "Who?"
         },
         {
-            Serbian: 'Šta?',
-            English: 'What?'
+            "serbian": "Šta?",
+            "english": "What?"
         },
         {
-            Serbian: 'Gde?',
-            English: 'Where (at, in)?'
+            "serbian": "Gde?",
+            "english": "Where (at, in)?"
         },
         {
-            Serbian: 'Kuda?',
-            English: 'Where (from)?'
+            "serbian": "Kuda?",
+            "english": "Where (from)?"
         },
         {
-            Serbian: 'Otkud?',
-            English: 'When?'
+            "serbian": "Otkud?",
+            "english": "When?"
         },
         {
-            Serbian: 'Kada?',
-            English: 'When?'
+            "serbian": "Kada?",
+            "english": "When?"
         },
         {
-            Serbian: 'Zašto?',
-            English: 'Why (aim)?'
+            "serbian": "Zašto?",
+            "english": "Why (aim)?"
         },
         {
-            Serbian: 'Što?',
-            English: 'Why (reason)?'
+            "serbian": "Što?",
+            "english": "Why (reason)?"
         },
         {
-            Serbian: 'Zbog čega?',
-            English: 'What for?'
+            "serbian": "Zbog čega?",
+            "english": "What for?"
         },
         {
-            Serbian: 'Kako?',
-            English: 'How?'
+            "serbian": "Kako?",
+            "english": "How?"
         },
         {
-            Serbian: 'Kakav?',
-            English: 'What? (Which?)'
+            "serbian": "Kakav?",
+            "english": "What? (Which?)"
         },
         {
-            Serbian: 'Koji?',
-            English: 'Which?'
+            "serbian": "Koji?",
+            "english": "Which?"
         },
         {
-            Serbian: 'Kome?',
-            English: 'To whom?'
+            "serbian": "Kome?",
+            "english": "To whom?"
         },
         {
-            Serbian: 'O kome?',
-            English: 'About whom?'
+            "serbian": "O kome?",
+            "english": "About whom?"
         },
         {
-            Serbian: 'O čime?',
-            English: 'About what?'
+            "serbian": "O čime?",
+            "english": "About what?"
         },
         {
-            Serbian: 'S kim?',
-            English: 'With whom?'
+            "serbian": "S kim?",
+            "english": "With whom?"
         },
         {
-            Serbian: 'Koliko?',
-            English: 'How much? How many?'
+            "serbian": "Koliko?",
+            "english": "How much? How many?"
         },
         {
-            Serbian: 'Čiji?',
-            English: 'Whose?'
+            "serbian": "Čiji?",
+            "english": "Whose?"
         }
     ],
-    days: [
+    "days": [
         {
-            Serbian: 'ponedeljak',
-            English: 'Monday'
+            "serbian": "ponedeljak",
+            "english": "Monday"
         },
         {
-            Serbian: 'utorak',
-            English: 'Tuesday'
+            "serbian": "utorak",
+            "english": "Tuesday"
         },
         {
-            Serbian: 'sreda',
-            English: 'Wednesday'
+            "serbian": "sreda",
+            "english": "Wednesday"
         },
         {
-            Serbian: 'četvrtak',
-            English: 'Thursday'
+            "serbian": "četvrtak",
+            "english": "Thursday"
         },
         {
-            Serbian: 'petak',
-            English: 'Friday'
+            "serbian": "petak",
+            "english": "Friday"
         },
         {
-            Serbian: 'subota',
-            English: 'Saturday'
+            "serbian": "subota",
+            "english": "Saturday"
         },
         {
-            Serbian: 'nedelja',
-            English: 'Sunday'
+            "serbian": "nedelja",
+            "english": "Sunday"
         },
         {
-            Serbian: 'danas',
-            English: 'today'
+            "serbian": "danas",
+            "english": "today"
         },
         {
-            Serbian: 'sutra',
-            English: 'tomorrow'
+            "serbian": "sutra",
+            "english": "tomorrow"
         },
         {
-            Serbian: 'prekosutra',
-            English: 'the day after tomorrow'
+            "serbian": "prekosutra",
+            "english": "the day after tomorrow"
         },
         {
-            Serbian: 'juče',
-            English: 'yesterday'
+            "serbian": "juče",
+            "english": "yesterday"
         },
         {
-            Serbian: 'prekjuče',
-            English: 'the day before yesterday'
+            "serbian": "prekjuče",
+            "english": "the day before yesterday"
         },
         {
-            Serbian: 'dan',
-            English: 'day'
+            "serbian": "dan",
+            "english": "day"
         },
         {
-            Serbian: 'radni dan',
-            English: 'workday'
+            "serbian": "radni dan",
+            "english": "workday"
         },
         {
-            Serbian: 'prazničan dan',
-            English: 'holiday'
+            "serbian": "prazničan dan",
+            "english": "holiday"
         },
         {
-            Serbian: 'slobodni dan',
-            English: 'day off'
+            "serbian": "slobodni dan",
+            "english": "day off"
         },
         {
-            Serbian: 'vikend',
-            English: 'weekend'
+            "serbian": "vikend",
+            "english": "weekend"
         },
         {
-            Serbian: 'ceo dan',
-            English: 'all day long'
+            "serbian": "ceo dan",
+            "english": "all day long"
         },
         {
-            Serbian: 'sutradan',
-            English: 'next day'
+            "serbian": "sutradan",
+            "english": "next day"
         },
         {
-            Serbian: 'pre dva dana',
-            English: 'two days ago'
+            "serbian": "pre dva dana",
+            "english": "two days ago"
         },
         {
-            Serbian: 'uoči',
-            English: 'shortly before'
+            "serbian": "uoči",
+            "english": "shortly before"
         },
         {
-            Serbian: 'svakodnevni',
-            English: 'daily'
+            "serbian": "svakodnevni",
+            "english": "daily"
         },
         {
-            Serbian: 'svaki dan',
-            English: 'every day'
+            "serbian": "svaki dan",
+            "english": "every day"
         },
         {
-            Serbian: 'prošlog meseca',
-            English: 'last month'
+            "serbian": "prošlog meseca",
+            "english": "last month"
         },
         {
-            Serbian: 'iduće nedelje',
-            English: 'next week'
+            "serbian": "iduće nedelje",
+            "english": "next week"
         },
         {
-            Serbian: 'nedeljni',
-            English: 'weekly'
+            "serbian": "nedeljni",
+            "english": "weekly"
         },
         {
-            Serbian: 'nedeljno',
-            English: 'every week'
+            "serbian": "nedeljno",
+            "english": "every week"
         },
         {
-            Serbian: 'dva puta nedeljno',
-            English: 'twice a week'
+            "serbian": "dva puta nedeljno",
+            "english": "twice a week"
         },
         {
-            Serbian: 'svakog utorka',
-            English: 'every Tuesday'
+            "serbian": "svakog utorka",
+            "english": "every Tuesday"
         }
     ],
-    materials: [
+    "materials": [
         {
-            Serbian: 'materijal',
-            English: 'material'
+            "serbian": "materijal",
+            "english": "material"
         },
         {
-            Serbian: 'drvo',
-            English: 'wood'
+            "serbian": "drvo",
+            "english": "wood"
         },
         {
-            Serbian: 'drven',
-            English: 'wooden'
+            "serbian": "drven",
+            "english": "wooden"
         },
         {
-            Serbian: 'staklo',
-            English: 'glass (n)'
+            "serbian": "staklo",
+            "english": "glass (n)"
         },
         {
-            Serbian: 'staklen',
-            English: 'glass (adj)'
+            "serbian": "staklen",
+            "english": "glass (adj)"
         },
         {
-            Serbian: 'kamen',
-            English: 'stone (n)'
+            "serbian": "kamen",
+            "english": "stone (n)"
         },
         {
-            Serbian: 'kamen',
-            English: 'stone (adj)'
+            "serbian": "kamen",
+            "english": "stone (adj)"
         },
         {
-            Serbian: 'plastika',
-            English: 'plastic (n)'
+            "serbian": "plastika",
+            "english": "plastic (n)"
         },
         {
-            Serbian: 'od plastike',
-            English: 'plastic (adj)'
+            "serbian": "od plastike",
+            "english": "plastic (adj)"
         },
         {
-            Serbian: 'guma',
-            English: 'rubber (n)'
+            "serbian": "guma",
+            "english": "rubber (n)"
         },
         {
-            Serbian: 'gumen',
-            English: 'rubber (adj)'
+            "serbian": "gumen",
+            "english": "rubber (adj)"
         },
         {
-            Serbian: 'tkanina',
-            English: 'fabric (n)'
+            "serbian": "tkanina",
+            "english": "fabric (n)"
         },
         {
-            Serbian: 'od tkanine',
-            English: 'fabric (adj)'
+            "serbian": "od tkanine",
+            "english": "fabric (adj)"
         },
         {
-            Serbian: 'papir',
-            English: 'paper (n)'
+            "serbian": "papir",
+            "english": "paper (n)"
         },
         {
-            Serbian: 'papiran',
-            English: 'paper (adj)'
+            "serbian": "papiran",
+            "english": "paper (adj)"
         },
         {
-            Serbian: 'karton',
-            English: 'cardboard (n)'
+            "serbian": "karton",
+            "english": "cardboard (n)"
         },
         {
-            Serbian: 'kartonski',
-            English: 'cardboard (adj)'
+            "serbian": "kartonski",
+            "english": "cardboard (adj)"
         },
         {
-            Serbian: 'najlon',
-            English: 'polythene'
+            "serbian": "najlon",
+            "english": "polythene"
         },
         {
-            Serbian: 'celofan',
-            English: 'cellophane'
+            "serbian": "celofan",
+            "english": "cellophane"
         },
         {
-            Serbian: 'šperploča',
-            English: 'plywood'
+            "serbian": "šperploča",
+            "english": "plywood"
         },
         {
-            Serbian: 'porculan',
-            English: 'percelain (n)'
+            "serbian": "porculan",
+            "english": "percelain (n)"
         },
         {
-            Serbian: 'od porcelana',
-            English: 'porcelain (adj)'
+            "serbian": "od porcelana",
+            "english": "porcelain (adj)"
         },
         {
-            Serbian: 'glina',
-            English: 'clay (n)'
+            "serbian": "glina",
+            "english": "clay (n)"
         },
         {
-            Serbian: 'zemljan',
-            English: 'clay (adj)'
+            "serbian": "zemljan",
+            "english": "clay (adj)"
         },
         {
-            Serbian: 'keramika',
-            English: 'ceramics (n)'
+            "serbian": "keramika",
+            "english": "ceramics (n)"
         },
         {
-            Serbian: 'keramički',
-            English: 'ceramics (adj)'
+            "serbian": "keramički",
+            "english": "ceramics (adj)"
         },
     ],
-    containers: [
+    "containers": [
         {
-            Serbian: 'tegla',
-            English: 'jar (glass)'
+            "serbian": "tegla",
+            "english": "jar (glass)"
         },
         {
-            Serbian: 'limenka',
-            English: 'can'
+            "serbian": "limenka",
+            "english": "can"
         },
         {
-            Serbian: 'vedro',
-            English: 'bucket'
+            "serbian": "vedro",
+            "english": "bucket"
         },
         {
-            Serbian: 'bure',
-            English: 'barrel'
+            "serbian": "bure",
+            "english": "barrel"
         },
         {
-            Serbian: 'lavor',
-            English: 'basin (for washing)'
+            "serbian": "lavor",
+            "english": "basin (for washing)"
         },
         {
-            Serbian: 'kotao',
-            English: 'tank (for liquid, gas)'
+            "serbian": "kotao",
+            "english": "tank (for liquid, gas)"
         },
         {
-            Serbian: 'čuturica',
-            English: 'flask (for water, wine)'
+            "serbian": "čuturica",
+            "english": "flask (for water, wine)"
         },
         {
-            Serbian: 'cisterna',
-            English: 'cistern (tank)'
+            "serbian": "cisterna",
+            "english": "cistern (tank)"
         },
         {
-            Serbian: 'kanta',
-            English: 'jerrycan'
+            "serbian": "kanta",
+            "english": "jerrycan"
         },
         {
-            Serbian: 'krigla',
-            English: 'mug'
+            "serbian": "krigla",
+            "english": "mug"
         },
         {
-            Serbian: 'šolja',
-            English: 'cup (~ of coffee, etc.)'
+            "serbian": "šolja",
+            "english": "cup (~ of coffee, etc.)"
         },
         {
-            Serbian: 'tacna',
-            English: 'saucer'
+            "serbian": "tacna",
+            "english": "saucer"
         },
         {
-            Serbian: 'čaša',
-            English: 'glass (~ of water)'
+            "serbian": "čaša",
+            "english": "glass (~ of water)"
         },
         {
-            Serbian: 'lonac',
-            English: 'stew pot'
+            "serbian": "lonac",
+            "english": "stew pot"
         },
         {
-            Serbian: 'boca',
-            English: 'bottle (~ of wine)'
+            "serbian": "boca",
+            "english": "bottle (~ of wine)"
         },
         {
-            Serbian: 'krčak',
-            English: 'pot (crock)'
+            "serbian": "krčak",
+            "english": "pot (crock)"
         },
         {
-            Serbian: 'vaza',
-            English: 'vase'
+            "serbian": "vaza",
+            "english": "vase"
         },
         {
-            Serbian: 'flakon',
-            English: 'bottle (~ of perfume)'
+            "serbian": "flakon",
+            "english": "bottle (~ of perfume)"
         },
         {
-            Serbian: 'bočica',
-            English: 'vial, small bottle'
+            "serbian": "bočica",
+            "english": "vial, small bottle"
         },
         {
-            Serbian: 'tuba',
-            English: 'tube (of toothpaste)'
+            "serbian": "tuba",
+            "english": "tube (of toothpaste)"
         },
         {
-            Serbian: 'džak',
-            English: 'sack (bag)'
+            "serbian": "džak",
+            "english": "sack (bag)"
         },
         {
-            Serbian: 'kesa',
-            English: 'bag (paper, plastic)'
+            "serbian": "kesa",
+            "english": "bag (paper, plastic)"
         },
         {
-            Serbian: 'paket',
-            English: 'package (small parcel)'
+            "serbian": "paket",
+            "english": "package (small parcel)"
         },
         {
-            Serbian: 'paklo',
-            English: 'pack (of cigarettes, etc.)'
+            "serbian": "paklo",
+            "english": "pack (of cigarettes, etc.)"
         },
         {
-            Serbian: 'kutija',
-            English: 'box (e.g. shoebox)'
+            "serbian": "kutija",
+            "english": "box (e.g. shoebox)"
         },
         {
-            Serbian: 'sanduče',
-            English: 'box (for transportation)'
+            "serbian": "sanduče",
+            "english": "box (for transportation)"
         },
         {
-            Serbian: 'korpa',
-            English: 'basket (for carrying)'
+            "serbian": "korpa",
+            "english": "basket (for carrying)"
         }
     ],
-    people: [
+    "people": [
         {
-            Serbian: 'ljudzko biće',
-            English: 'human (being)'
+            "serbian": "ljudzko biće",
+            "english": "human (being)"
         },
         {
-            Serbian: 'muškarac',
-            English: 'man'
+            "serbian": "muškarac",
+            "english": "man"
         },
         {
-            Serbian: 'žena',
-            English: 'woman'
+            "serbian": "žena",
+            "english": "woman"
         },
         {
-            Serbian: 'dete',
-            English: 'child'
+            "serbian": "dete",
+            "english": "child"
         },
         {
-            Serbian: 'devojka',
-            English: 'girl'
+            "serbian": "devojka",
+            "english": "girl"
         },
         {
-            Serbian: 'momće',
-            English: 'boy'
+            "serbian": "momće",
+            "english": "boy"
         },
         {
-            Serbian: 'tinejdžer',
-            English: 'teenager'
+            "serbian": "tinejdžer",
+            "english": "teenager"
         },
         {
-            Serbian: 'starac',
-            English: 'old man'
+            "serbian": "starac",
+            "english": "old man"
         },
         {
-            Serbian: 'starica',
-            English: 'old woman'
+            "serbian": "starica",
+            "english": "old woman"
         },
     ],
-    body: [
+    "body": [
         {
-            Serbian: 'organizam',
-            English: 'organism'
+            "serbian": "organizam",
+            "english": "organism"
         },
         {
-            Serbian: 'srce',
-            English: 'heart'
+            "serbian": "srce",
+            "english": "heart"
         },
         {
-            Serbian: 'krv',
-            English: 'blood'
+            "serbian": "krv",
+            "english": "blood"
         },
         {
-            Serbian: 'arterija',
-            English: 'artery'
+            "serbian": "arterija",
+            "english": "artery"
         },
         {
-            Serbian: 'vena',
-            English: 'vein'
+            "serbian": "vena",
+            "english": "vein"
         },
         {
-            Serbian: 'mozak',
-            English: 'brain'
+            "serbian": "mozak",
+            "english": "brain"
         },
         {
-            Serbian: 'živac',
-            English: 'nerve'
+            "serbian": "živac",
+            "english": "nerve"
         },
         {
-            Serbian: 'živci',
-            English: 'nerves'
+            "serbian": "živci",
+            "english": "nerves"
         },
         {
-            Serbian: 'kičmeni pršljen',
-            English: 'vertebra'
+            "serbian": "kičmeni pršljen",
+            "english": "vertebra"
         },
         {
-            Serbian: 'kičma',
-            English: 'spine'
+            "serbian": "kičma",
+            "english": "spine"
         },
         {
-            Serbian: 'stomak',
-            English: 'stomache'
+            "serbian": "stomak",
+            "english": "stomache"
         },
         {
-            Serbian: 'creva',
-            English: 'intestines'
+            "serbian": "creva",
+            "english": "intestines"
         },
         {
-            Serbian: 'crevo',
-            English: 'intenstine'
+            "serbian": "crevo",
+            "english": "intenstine"
         },
         {
-            Serbian: 'jetra',
-            English: 'liver'
+            "serbian": "jetra",
+            "english": "liver"
         },
         {
-            Serbian: 'bubreg',
-            English: 'kidney'
+            "serbian": "bubreg",
+            "english": "kidney"
         },
         {
-            Serbian: 'kost',
-            English: 'bone'
+            "serbian": "kost",
+            "english": "bone"
         },
         {
-            Serbian: 'kostur',
-            English: 'skeleton'
+            "serbian": "kostur",
+            "english": "skeleton"
         },
         {
-            Serbian: 'rebro',
-            English: 'rib'
+            "serbian": "rebro",
+            "english": "rib"
         },
         {
-            Serbian: 'lobanja',
-            English: 'skull'
+            "serbian": "lobanja",
+            "english": "skull"
         },
         {
-            Serbian: 'mišica',
-            English: 'muscle'
+            "serbian": "mišica",
+            "english": "muscle"
         },
         {
-            Serbian: 'biceps',
-            English: 'biceps'
+            "serbian": "biceps",
+            "english": "biceps"
         },
         {
-            Serbian: 'triceps',
-            English: 'triceps'
+            "serbian": "triceps",
+            "english": "triceps"
         },
         {
-            Serbian: 'žila',
-            English: 'tendon'
+            "serbian": "žila",
+            "english": "tendon"
         },
         {
-            Serbian: 'zglob',
-            English: 'joint'
+            "serbian": "zglob",
+            "english": "joint"
         },
         {
-            Serbian: 'pluća',
-            English: 'lungs'
+            "serbian": "pluća",
+            "english": "lungs"
         },
         {
-            Serbian: 'polni organ',
-            English: 'genitals'
+            "serbian": "polni organ",
+            "english": "genitals"
         },
         {
-            Serbian: 'koža',
-            English: 'skin'
+            "serbian": "koža",
+            "english": "skin"
         },
         {
-            Serbian: 'šaka, ruka',
-            English: 'hand'
+            "serbian": "šaka, ruka",
+            "english": "hand"
         },
         {
-            Serbian: 'ruka',
-            English: 'arm'
+            "serbian": "ruka",
+            "english": "arm"
         },
         {
-            Serbian: 'prst',
-            English: 'finger, toe'
+            "serbian": "prst",
+            "english": "finger, toe"
         },
         {
-            Serbian: 'palac',
-            English: 'thumb'
+            "serbian": "palac",
+            "english": "thumb"
         },
         {
-            Serbian: 'mali prst',
-            English: 'little finger'
+            "serbian": "mali prst",
+            "english": "little finger"
         },
         {
-            Serbian: 'nokat',
-            English: 'nail'
+            "serbian": "nokat",
+            "english": "nail"
         },
         {
-            Serbian: 'pesnica',
-            English: 'fist'
+            "serbian": "pesnica",
+            "english": "fist"
         },
         {
-            Serbian: 'dlan',
-            English: 'palm'
+            "serbian": "dlan",
+            "english": "palm"
         },
         {
-            Serbian: 'zapešće',
-            English: 'wrist'
+            "serbian": "zapešće",
+            "english": "wrist"
         },
         {
-            Serbian: 'podlaktica',
-            English: 'forearm'
+            "serbian": "podlaktica",
+            "english": "forearm"
         },
         {
-            Serbian: 'lakat',
-            English: 'elbow'
+            "serbian": "lakat",
+            "english": "elbow"
         },
         {
-            Serbian: 'rame',
-            English: 'shoulder'
+            "serbian": "rame",
+            "english": "shoulder"
         },
         {
-            Serbian: 'noga',
-            English: 'leg'
+            "serbian": "noga",
+            "english": "leg"
         },
         {
-            Serbian: 'stopalo',
-            English: 'foot'
+            "serbian": "stopalo",
+            "english": "foot"
         },
         {
-            Serbian: 'koleno',
-            English: 'knee'
+            "serbian": "koleno",
+            "english": "knee"
         },
         {
-            Serbian: 'list',
-            English: 'calf (of leg)'
+            "serbian": "list",
+            "english": "calf (of leg)"
         },
         {
-            Serbian: 'but',
-            English: 'hip'
+            "serbian": "but",
+            "english": "hip"
         },
         {
-            Serbian: 'peta',
-            English: 'heel'
+            "serbian": "peta",
+            "english": "heel"
         },
         {
-            Serbian: 'telo',
-            English: 'body'
+            "serbian": "telo",
+            "english": "body"
         },
         {
-            Serbian: 'trbuh',
-            English: 'stomach (abdomen)'
+            "serbian": "trbuh",
+            "english": "stomach (abdomen)"
         },
         {
-            Serbian: 'prsi',
-            English: 'chest, breast'
+            "serbian": "prsi",
+            "english": "chest, breast"
         },
         {
-            Serbian: 'bok',
-            English: 'side (of the body)'
+            "serbian": "bok",
+            "english": "side (of the body)"
         },
         {
-            Serbian: 'leđa',
-            English: 'back'
+            "serbian": "leđa",
+            "english": "back"
         },
         {
-            Serbian: 'krsta',
-            English: 'lower back'
+            "serbian": "krsta",
+            "english": "lower back"
         },
         {
-            Serbian: 'struk',
-            English: 'waist'
+            "serbian": "struk",
+            "english": "waist"
         },
         {
-            Serbian: 'pupak',
-            English: 'navel'
+            "serbian": "pupak",
+            "english": "navel"
         },
         {
-            Serbian: 'stražnjica',
-            English: 'buttocks'
+            "serbian": "stražnjica",
+            "english": "buttocks"
         },
         {
-            Serbian: 'zadnjica',
-            English: 'behind'
+            "serbian": "zadnjica",
+            "english": "behind"
         },
         {
-            Serbian: 'mladež',
-            English: 'beauty mark, birthmark'
+            "serbian": "mladež",
+            "english": "beauty mark, birthmark"
         },
         {
-            Serbian: 'tetovirana šara',
-            English: 'tattoo'
+            "serbian": "tetovirana šara",
+            "english": "tattoo"
         },
         {
-            Serbian: 'ožilkjak',
-            English: 'scar'
+            "serbian": "ožilkjak",
+            "english": "scar"
         }
     ],
-    pronouns: [
+    "pronouns": [
         {
-            Serbian: 'ja',
-            English: 'I, me'
+            "serbian": "ja",
+            "english": "I, me"
         },
         {
-            Serbian: 'ti',
-            English: 'you (s)'
+            "serbian": "ti",
+            "english": "you (s)"
         },
         {
-            Serbian: 'on',
-            English: 'he'
+            "serbian": "on",
+            "english": "he"
         },
         {
-            Serbian: 'ona (s)',
-            English: 'she'
+            "serbian": "ona (s)",
+            "english": "she"
         },
         {
-            Serbian: 'ono',
-            English: 'it'
+            "serbian": "ono",
+            "english": "it"
         },
         {
-            Serbian: 'mi',
-            English: 'we'
+            "serbian": "mi",
+            "english": "we"
         },
         {
-            Serbian: 'vi',
-            English: 'you'
+            "serbian": "vi",
+            "english": "you"
         }
         {
-            Serbian: 'one',
-            English: 'they (f)'
+            "serbian": "one",
+            "english": "they (f)"
         }
         {
-            Serbian: 'oni',
-            English: 'they (m)'
+            "serbian": "oni",
+            "english": "they (m)"
         }
         {
-            Serbian: 'ona (pl)',
-            English: 'they (n)'
+            "serbian": "ona (pl)",
+            "english": "they (n)"
         }
     ],
-    'cardinal numbers': [
+    "cardinal numbers": [
         {
-            Serbian: 'nula',
-            English: 'zero'
+            "serbian": "nula",
+            "english": "zero"
         },
         {
-            Serbian: 'jedan',
-            English: 'one'
+            "serbian": "jedan",
+            "english": "one"
         },
         {
-            Serbian: 'dva',
-            English: 'two'
+            "serbian": "dva",
+            "english": "two"
         },
         {
-            Serbian: 'tri',
-            English: 'three'
+            "serbian": "tri",
+            "english": "three"
         },
         {
-            Serbian: 'četiri',
-            English: 'four'
+            "serbian": "četiri",
+            "english": "four"
         },
         {
-            Serbian: 'pet',
-            English: 'five'
+            "serbian": "pet",
+            "english": "five"
         },
         {
-            Serbian: 'šest',
-            English: 'six'
+            "serbian": "šest",
+            "english": "six"
         },
         {
-            Serbian: 'sedam',
-            English: 'seven'
+            "serbian": "sedam",
+            "english": "seven"
         },
         {
-            Serbian: 'osam',
-            English: 'eight'
+            "serbian": "osam",
+            "english": "eight"
         },
         {
-            Serbian: 'devet',
-            English: 'nine'
+            "serbian": "devet",
+            "english": "nine"
         },
         {
-            Serbian: 'deset',
-            English: 'ten'
+            "serbian": "deset",
+            "english": "ten"
         },
         {
-            Serbian: 'jedanaest',
-            English: 'eleven'
+            "serbian": "jedanaest",
+            "english": "eleven"
         },
         {
-            Serbian: 'dvanaest',
-            English: 'twelve'
+            "serbian": "dvanaest",
+            "english": "twelve"
         },
         {
-            Serbian: 'trinaest',
-            English: 'thirteen'
+            "serbian": "trinaest",
+            "english": "thirteen"
         },
         {
-            Serbian: 'četrnaest',
-            English: 'fourteen'
+            "serbian": "četrnaest",
+            "english": "fourteen"
         },
         {
-            Serbian: 'petnaest',
-            English: 'fifteen'
+            "serbian": "petnaest",
+            "english": "fifteen"
         },
         {
-            Serbian: 'šesnaest',
-            English: 'sixteen'
+            "serbian": "šesnaest",
+            "english": "sixteen"
         },
         {
-            Serbian: 'sedamnaest',
-            English: 'seventeen'
+            "serbian": "sedamnaest",
+            "english": "seventeen"
         },
         {
-            Serbian: 'osamnaest',
-            English: 'eighteen'
+            "serbian": "osamnaest",
+            "english": "eighteen"
         },
         {
-            Serbian: 'devetnaest',
-            English: 'nineteen'
+            "serbian": "devetnaest",
+            "english": "nineteen"
         },
         {
-            Serbian: 'dvadeset',
-            English: 'twenty'
+            "serbian": "dvadeset",
+            "english": "twenty"
         },
         {
-            Serbian: 'dvadeset i jedan',
-            English: 'twenty-one'
+            "serbian": "dvadeset i jedan",
+            "english": "twenty-one"
         },
         {
-            Serbian: 'dvadeset i dva',
-            English: 'twenty-two'
+            "serbian": "dvadeset i dva",
+            "english": "twenty-two"
         },
         {
-            Serbian: 'dvadeset i tri',
-            English: 'twenty-three'
+            "serbian": "dvadeset i tri",
+            "english": "twenty-three"
         },
         {
-            Serbian: 'trideset',
-            English: 'thirty'
+            "serbian": "trideset",
+            "english": "thirty"
         },
         {
-            Serbian: 'trideset i četiri',
-            English: 'thirty-four'
+            "serbian": "trideset i četiri",
+            "english": "thirty-four"
         },
         {
-            Serbian: 'trideset i pet',
-            English: 'thirty-five'
+            "serbian": "trideset i pet",
+            "english": "thirty-five"
         },
         {
-            Serbian: 'trideset i šest',
-            English: 'thirty-six'
+            "serbian": "trideset i šest",
+            "english": "thirty-six"
         },
         {
-            Serbian: 'četrdeset',
-            English: 'forty'
+            "serbian": "četrdeset",
+            "english": "forty"
         },
         {
-            Serbian: 'cetrdeset i sedam',
-            English: 'forty-seven'
+            "serbian": "cetrdeset i sedam",
+            "english": "forty-seven"
         },
         {
-            Serbian: 'četrdeset i osam',
-            English: 'forty-eight'
+            "serbian": "četrdeset i osam",
+            "english": "forty-eight"
         },
         {
-            Serbian: 'četrdeset i devet',
-            English: 'forty-nine'
+            "serbian": "četrdeset i devet",
+            "english": "forty-nine"
         },
         {
-            Serbian: 'pedeset',
-            English: 'fifty'
+            "serbian": "pedeset",
+            "english": "fifty"
         },
         {
-            Serbian: 'šezdeset',
-            English: 'sixy'
+            "serbian": "šezdeset",
+            "english": "sixy"
         },
         {
-            Serbian: 'sedamdeset',
-            English: 'seventy'
+            "serbian": "sedamdeset",
+            "english": "seventy"
         },
         {
-            Serbian: 'osamdeset',
-            English: 'eighty'
+            "serbian": "osamdeset",
+            "english": "eighty"
         },
         {
-            Serbian: 'devedeset',
-            English: 'ninety'
+            "serbian": "devedeset",
+            "english": "ninety"
         },
         {
-            Serbian: 'sto (number)',
-            English: 'one hundred'
+            "serbian": "sto (number)",
+            "english": "one hundred"
         },
         {
-            Serbian: 'dvesta',
-            English: 'two hundred'
+            "serbian": "dvesta",
+            "english": "two hundred"
         },
         {
-            Serbian: 'trista',
-            English: 'three hundred'
+            "serbian": "trista",
+            "english": "three hundred"
         },
         {
-            Serbian: 'četiristro',
-            English: 'four hundred'
+            "serbian": "četiristro",
+            "english": "four hundred"
         },
         {
-            Serbian: 'petsto',
-            English: 'five hundred'
+            "serbian": "petsto",
+            "english": "five hundred"
         },
         {
-            Serbian: 'šesto',
-            English: 'six hundred'
+            "serbian": "šesto",
+            "english": "six hundred"
         },
         {
-            Serbian: 'sedamsto',
-            English: 'seven hundred'
+            "serbian": "sedamsto",
+            "english": "seven hundred"
         },
         {
-            Serbian: 'osamsto',
-            English: 'eight hundred'
+            "serbian": "osamsto",
+            "english": "eight hundred"
         },
         {
-            Serbian: 'devetsto',
-            English: 'nine hundred'
+            "serbian": "devetsto",
+            "english": "nine hundred"
         },
         {
-            Serbian: 'hiljada',
-            English: 'one thousand'
+            "serbian": "hiljada",
+            "english": "one thousand"
         },
         {
-            Serbian: 'dve hiljade',
-            English: 'two thousand'
+            "serbian": "dve hiljade",
+            "english": "two thousand"
         },
         {
-            Serbian: 'tri hiljade',
-            English: 'three thousand'
+            "serbian": "tri hiljade",
+            "english": "three thousand"
         },
         {
-            Serbian: 'deset hiljade',
-            English: 'ten thousand'
+            "serbian": "deset hiljade",
+            "english": "ten thousand"
         },
         {
-            Serbian: 'sto hiljade',
-            English: 'one hundred thousand'
+            "serbian": "sto hiljade",
+            "english": "one hundred thousand"
         },
         {
-            Serbian: 'milion',
-            English: 'one million'
+            "serbian": "milion",
+            "english": "one million"
         },
         {
-            Serbian: 'milijarda',
-            English: 'one billion'
-        },
-    ],
-    'ordinal numbers': [
-        {
-            Serbian: 'prvi',
-            English: 'first'
-        },
-        {
-            Serbian: 'drugi',
-            English: 'other, another'
-        },
-        {
-            Serbian: 'treći',
-            English: 'third'
-        },
-        {
-            Serbian: 'četvrti',
-            English: 'fourth'
-        },
-        {
-            Serbian: 'peti',
-            English: 'fifth'
-        },
-        {
-            Serbian: 'šesti',
-            English: 'sixth'
-        },
-        {
-            Serbian: 'sedmi',
-            English: 'seventh'
-        },
-        {
-            Serbian: 'osmi',
-            English: 'eighth'
-        },
-        {
-            Serbian: 'deveti',
-            English: 'ninth'
-        },
-        {
-            Serbian: 'deseti',
-            English: 'tenth'
+            "serbian": "milijarda",
+            "english": "one billion"
         },
     ],
-    fractions: [
+    "ordinal numbers": [
         {
-            Serbian: 'razlomak',
-            English: 'fraction'
+            "serbian": "prvi",
+            "english": "first"
         },
         {
-            Serbian: 'jedna polovina',
-            English: 'one half'
+            "serbian": "drugi",
+            "english": "other, another"
         },
         {
-            Serbian: 'jedna trećina',
-            English: 'one third'
+            "serbian": "treći",
+            "english": "third"
         },
         {
-            Serbian: 'jedna četvrtina',
-            English: 'one fourth'
+            "serbian": "četvrti",
+            "english": "fourth"
         },
         {
-            Serbian: 'jedna osmina',
-            English: 'one eighth'
+            "serbian": "peti",
+            "english": "fifth"
         },
         {
-            Serbian: 'jedna desetina',
-            English: 'one tenth'
+            "serbian": "šesti",
+            "english": "sixth"
         },
         {
-            Serbian: 'dve trećine',
-            English: 'two thirds'
+            "serbian": "sedmi",
+            "english": "seventh"
         },
         {
-            Serbian: 'tri četrvrtine',
-            English: 'three quarters'
-        },
-    ],
-    'mathematical operations': [
-        {
-            Serbian: 'oduzimanje (n)',
-            English: 'subtraction'
+            "serbian": "osmi",
+            "english": "eighth"
         },
         {
-            Serbian: 'oduzimati (vi, vt)',
-            English: 'to subtract'
+            "serbian": "deveti",
+            "english": "ninth"
         },
         {
-            Serbian: 'delenje (n)',
-            English: 'division'
-        },
-        {
-            Serbian: 'deliti (vt)',
-            English: 'to divide'
-        },
-        {
-            Serbian: 'sabiranje (n)',
-            English: 'addition'
-        },
-        {
-            Serbian: 'sabirati (vt)',
-            English: 'to add up'
-        },
-        {
-            Serbian: 'sabirati (vi)',
-            English: 'to add'
-        },
-        {
-            Serbian: 'množenje (n)',
-            English: 'multiplication'
-        },
-        {
-            Serbian: 'množiti (vi, vt)',
-            English: 'to multiply'
+            "serbian": "deseti",
+            "english": "tenth"
         },
     ],
-    'months and seasons': [
+    "fractions": [
         {
-            Serbian: 'januar',
-            English: 'January'
+            "serbian": "razlomak",
+            "english": "fraction"
         },
         {
-            Serbian: 'februar',
-            English: 'February'
+            "serbian": "jedna polovina",
+            "english": "one half"
         },
         {
-            Serbian: 'mart',
-            English: 'March'
+            "serbian": "jedna trećina",
+            "english": "one third"
         },
         {
-            Serbian: 'april',
-            English: 'April'
+            "serbian": "jedna četvrtina",
+            "english": "one fourth"
         },
         {
-            Serbian: 'maj',
-            English: 'May'
+            "serbian": "jedna osmina",
+            "english": "one eighth"
         },
         {
-            Serbian: 'jun',
-            English: 'June'
+            "serbian": "jedna desetina",
+            "english": "one tenth"
         },
         {
-            Serbian: 'juli',
-            English: 'July'
+            "serbian": "dve trećine",
+            "english": "two thirds"
         },
         {
-            Serbian: 'avgust',
-            English: 'August'
+            "serbian": "tri četrvrtine",
+            "english": "three quarters"
+        },
+    ],
+    "mathematical operations": [
+        {
+            "serbian": "oduzimanje (n)",
+            "english": "subtraction"
         },
         {
-            Serbian: 'septembar',
-            English: 'September'
+            "serbian": "oduzimati (vi, vt)",
+            "english": "to subtract"
         },
         {
-            Serbian: 'octobar',
-            English: 'October'
+            "serbian": "delenje (n)",
+            "english": "division"
         },
         {
-            Serbian: 'novembar',
-            English: 'November'
+            "serbian": "deliti (vt)",
+            "english": "to divide"
         },
         {
-            Serbian: 'decembar',
-            English: 'December'
+            "serbian": "sabiranje (n)",
+            "english": "addition"
         },
         {
-            Serbian: 'proleće',
-            English: 'spring'
+            "serbian": "sabirati (vt)",
+            "english": "to add up"
         },
         {
-            Serbian: 'u proleće',
-            English: 'in spring'
+            "serbian": "sabirati (vi)",
+            "english": "to add"
         },
         {
-            Serbian: 'proletni',
-            English: 'spring (adj)'
+            "serbian": "množenje (n)",
+            "english": "multiplication"
         },
         {
-            Serbian: 'leto',
-            English: 'summer'
+            "serbian": "množiti (vi, vt)",
+            "english": "to multiply"
+        },
+    ],
+    "months and seasons": [
+        {
+            "serbian": "januar",
+            "english": "January"
         },
         {
-            Serbian: 'leti',
-            English: 'in summer'
+            "serbian": "februar",
+            "english": "February"
         },
         {
-            Serbian: 'letnji',
-            English: 'summer (adj)'
+            "serbian": "mart",
+            "english": "March"
         },
         {
-            Serbian: 'autumn',
-            English: 'jesen'
+            "serbian": "april",
+            "english": "April"
         },
         {
-            Serbian: 'u jesen',
-            English: 'in the autumn'
+            "serbian": "maj",
+            "english": "May"
         },
         {
-            Serbian: 'jesenji',
-            English: 'autumn (adj)'
+            "serbian": "jun",
+            "english": "June"
         },
         {
-            Serbian: 'zima',
-            English: 'winter'
+            "serbian": "juli",
+            "english": "July"
         },
         {
-            Serbian: 'zimi',
-            English: 'in winter'
+            "serbian": "avgust",
+            "english": "August"
         },
         {
-            Serbian: 'zimski',
-            English: 'winter (adj)'
+            "serbian": "septembar",
+            "english": "September"
         },
         {
-            Serbian: 'mesec',
-            English: 'month'
+            "serbian": "octobar",
+            "english": "October"
         },
         {
-            Serbian: 'ovog meseca',
-            English: 'this month'
+            "serbian": "novembar",
+            "english": "November"
         },
         {
-            Serbian: 'sledećeg meseca',
-            English: 'next month'
+            "serbian": "decembar",
+            "english": "December"
         },
         {
-            Serbian: 'prošlog meseca',
-            English: 'last month'
+            "serbian": "proleće",
+            "english": "spring"
         },
         {
-            Serbian: 'pre mesec dana',
-            English: 'a month ago'
+            "serbian": "u proleće",
+            "english": "in spring"
         },
         {
-            Serbian: 'za mesec dana',
-            English: 'in a month'
+            "serbian": "proletni",
+            "english": "spring (adj)"
         },
         {
-            Serbian: 'za dva meseca',
-            English: 'in two months'
+            "serbian": "leto",
+            "english": "summer"
         },
         {
-            Serbian: 'ceo mesec',
-            English: 'all month long'
+            "serbian": "leti",
+            "english": "in summer"
         },
         {
-            Serbian: 'mesečni',
-            English: 'monthly (adj)'
+            "serbian": "letnji",
+            "english": "summer (adj)"
         },
         {
-            Serbian: 'mesečno',
-            English: 'monthly (adj)'
+            "serbian": "autumn",
+            "english": "jesen"
         },
         {
-            Serbian: 'svaki mesec',
-            English: 'every month'
+            "serbian": "u jesen",
+            "english": "in the autumn"
         },
         {
-            Serbian: 'godina',
-            English: 'year'
+            "serbian": "jesenji",
+            "english": "autumn (adj)"
         },
         {
-            Serbian: 'ove godine',
-            English: 'this year'
+            "serbian": "zima",
+            "english": "winter"
         },
         {
-            Serbian: 'iduće godine',
-            English: 'next year'
+            "serbian": "zimi",
+            "english": "in winter"
         },
         {
-            Serbian: 'lanji',
-            English: 'last year'
+            "serbian": "zimski",
+            "english": "winter (adj)"
         },
         {
-            Serbian: 'pre gudinu dana',
-            English: 'a year ago'
+            "serbian": "mesec",
+            "english": "month"
         },
         {
-            Serbian: 'preko godine',
-            English: 'over the years'
+            "serbian": "ovog meseca",
+            "english": "this month"
         },
         {
-            Serbian: 'kroz dve godine',
-            English: 'in two years'
+            "serbian": "sledećeg meseca",
+            "english": "next month"
         },
         {
-            Serbian: 'cela godina',
-            English: 'a whole year'
+            "serbian": "prošlog meseca",
+            "english": "last month"
         },
         {
-            Serbian: 'celu godinu',
-            English: 'all year long'
+            "serbian": "pre mesec dana",
+            "english": "a month ago"
         },
         {
-            Serbian: 'svaku godinu',
-            English: 'every year'
+            "serbian": "za mesec dana",
+            "english": "in a month"
         },
         {
-            Serbian: 'godišnji',
-            English: 'annual (adj)'
+            "serbian": "za dva meseca",
+            "english": "in two months"
         },
         {
-            Serbian: 'godišnje',
-            English: 'annually'
+            "serbian": "ceo mesec",
+            "english": "all month long"
         },
         {
-            Serbian: 'četiri puta godišnje',
-            English: 'four times a year'
+            "serbian": "mesečni",
+            "english": "monthly (adj)"
         },
         {
-            Serbian: 'datum',
-            English: 'date'
+            "serbian": "mesečno",
+            "english": "monthly (adj)"
         },
         {
-            Serbian: 'kalendar',
-            English: 'calendar'
+            "serbian": "svaki mesec",
+            "english": "every month"
         },
         {
-            Serbian: 'pola godine',
-            English: 'half a year'
+            "serbian": "godina",
+            "english": "year"
         },
         {
-            Serbian: 'polugodište',
-            English: 'semester'
+            "serbian": "ove godine",
+            "english": "this year"
         },
         {
-            Serbian: 'sezon',
-            English: 'season'
+            "serbian": "iduće godine",
+            "english": "next year"
         },
         {
-            Serbian: 'vek',
-            English: 'century'
+            "serbian": "lanji",
+            "english": "last year"
+        },
+        {
+            "serbian": "pre gudinu dana",
+            "english": "a year ago"
+        },
+        {
+            "serbian": "preko godine",
+            "english": "over the years"
+        },
+        {
+            "serbian": "kroz dve godine",
+            "english": "in two years"
+        },
+        {
+            "serbian": "cela godina",
+            "english": "a whole year"
+        },
+        {
+            "serbian": "celu godinu",
+            "english": "all year long"
+        },
+        {
+            "serbian": "svaku godinu",
+            "english": "every year"
+        },
+        {
+            "serbian": "godišnji",
+            "english": "annual (adj)"
+        },
+        {
+            "serbian": "godišnje",
+            "english": "annually"
+        },
+        {
+            "serbian": "četiri puta godišnje",
+            "english": "four times a year"
+        },
+        {
+            "serbian": "datum",
+            "english": "date"
+        },
+        {
+            "serbian": "kalendar",
+            "english": "calendar"
+        },
+        {
+            "serbian": "pola godine",
+            "english": "half a year"
+        },
+        {
+            "serbian": "polugodište",
+            "english": "semester"
+        },
+        {
+            "serbian": "sezon",
+            "english": "season"
+        },
+        {
+            "serbian": "vek",
+            "english": "century"
         }
     ],
-    category: [
+    "adjectives": [
         {
-            Serbian: '',
-            English: ''
+            "serbian": "bogat",
+            "english": "rich"
+        },
+        {
+            "serbian": "siromah",
+            "english": "poor"
+        },
+        {
+            "serbian": "zdrav",
+            "english": "healthy"
+        },
+        {
+            "serbian": "velik",
+            "english": "big"
+        },
+        {
+            "serbian": "mali",
+            "english": "small"
+        },
+        {
+            "serbian": "brzo",
+            "english": "quickly"
+        },
+        {
+            "serbian": "polako",
+            "english": "slowly"
+        },
+        {
+            "serbian": "brz",
+            "english": "fast"
+        },
+        {
+            "serbian": "spor",
+            "english": "slow"
+        },
+        {
+            "serbian": "veseo",
+            "english": "cheerful"
+        },
+        {
+            "serbian": "tužan",
+            "english": "sad"
+        },
+        {
+            "serbian": "zajedno",
+            "english": "together"
+        },
+        {
+            "serbian": "posebno",
+            "english": "separately"
+        },
+        {
+            "serbian": "glasno",
+            "english": "aloud"
+        },
+        {
+            "serbian": "u sebi",
+            "english": "to oneself"
+        },
+        {
+            "serbian": "visok",
+            "english": "tall"
+        },
+        {
+            "serbian": "nizak",
+            "english": "low"
+        },
+        {
+            "serbian": "dubok",
+            "english": "deep"
+        },
+        {
+            "serbian": "plitak",
+            "english": "shallow"
+        },
+        {
+            "serbian": "da",
+            "english": "yes"
+        },
+        {
+            "serbian": "ne",
+            "english": "no"
+        },
+        {
+            "serbian": "dalek",
+            "english": "distant"
+        },
+        {
+            "serbian": "blizak",
+            "english": "nearby (adj)"
+        },
+        {
+            "serbian": "daleko",
+            "english": "far"
+        },
+        {
+            "serbian": "blizu",
+            "english": "nearby (adv)"
+        },
+        {
+            "serbian": "dugačak",
+            "english": "long"
+        },
+        {
+            "serbian": "kratak",
+            "english": "short"
+        },
+        {
+            "serbian": "dobar",
+            "english": "good"
+        },
+        {
+            "serbian": "zao",
+            "english": "evil"
+        },
+        {
+            "serbian": "oženjen",
+            "english": "married"
+        },
+        {
+            "serbian": "neoženjen",
+            "english": "single"
+        },
+        {
+            "serbian": "zabraniti",
+            "english": "to forbid"
+        },
+        {
+            "serbian": "dozvoliti",
+            "english": "to permit"
+        },
+        {
+            "serbian": "kraj",
+            "english": "end"
+        },
+        {
+            "serbian": "početak",
+            "english": "beginning"
+        },
+        {
+            "serbian": "lev",
+            "english": "left"
+        },
+        {
+            "serbian": "desan",
+            "english": "right"
+        },
+        {
+            "serbian": "prvi",
+            "english": "first"
+        },
+        {
+            "serbian": "poslednji",
+            "english": "last"
+        },
+        {
+            "serbian": "zločin",
+            "english": "crime"
+        },
+        {
+            "serbian": "kazna",
+            "english": "punishment"
+        },
+        {
+            "serbian": "narediti",
+            "english": "to order"
+        },
+        {
+            "serbian": "potčiniti se",
+            "english": "to obey"
+        },
+        {
+            "serbian": "prav",
+            "english": "straight"
+        },
+        {
+            "serbian": "iskrivljen",
+            "english": "curved"
+        },
+        {
+            "serbian": "raj",
+            "english": "heaven"
+        },
+        {
+            "serbian": "pakao",
+            "english": "hell"
+        },
+        {
+            "serbian": "roditi se",
+            "english": "to be born"
+        },
+        {
+            "serbian": "umreti",
+            "english": "to die"
+        },
+        {
+            "serbian": "snažan",
+            "english": "strong"
+        },
+        {
+            "serbian": "slab",
+            "english": "weak"
+        },
+        {
+            "serbian": "star",
+            "english": "old"
+        },
+        {
+            "serbian": "mlad",
+            "english": "young"
+        },
+        {
+            "serbian": "nov",
+            "english": "new"
+        },
+        {
+            "serbian": "čvrst",
+            "english": "hard"
+        },
+        {
+            "serbian": "mek",
+            "english": "soft"
+        },
+        {
+            "serbian": "topao",
+            "english": "warm"
+        },
+        {
+            "serbian": "hladan",
+            "english": "cold"
+        },
+        {
+            "serbian": "debeo",
+            "english": "fat"
+        },
+        {
+            "serbian": "mršav",
+            "english": "slim"
+        },
+        {
+            "serbian": "uzak",
+            "english": "narrow"
+        },
+        {
+            "serbian": "širok",
+            "english": "wide"
+        },
+        {
+            "serbian": "rđav",
+            "english": "bad"
+        },
+        {
+            "serbian": "hrabar",
+            "english": "brave"
+        },
+        {
+            "serbian": "plašljiv",
+            "english": "cowardly"
+        }
+    ],
+    "head": [
+        {
+            "serbian": "glava",
+            "english": "head"
+        },
+        {
+            "serbian": "lice",
+            "english": "face"
+        },
+        {
+            "serbian": "nos",
+            "english": "nose"
+        },
+        {
+            "serbian": "usta",
+            "english": "mouth"
+        },
+        {
+            "serbian": "oko",
+            "english": "eye"
+        },
+        {
+            "serbian": "oči",
+            "english": "eyes"
+        },
+        {
+            "serbian": "zenica",
+            "english": "pupil"
+        },
+        {
+            "serbian": "obrva",
+            "english": "eyebrow"
+        },
+        {
+            "serbian": "trepavica",
+            "english": "eyelash"
+        },
+        {
+            "serbian": "veđa",
+            "english": "eyelid"
+        },
+        {
+            "serbian": "jezik",
+            "english": "tongue"
+        },
+        {
+            "serbian": "zub",
+            "english": "tooth"
+        },
+        {
+            "serbian": "usna",
+            "english": "lips"
+        },
+        {
+            "serbian": "jagodice",
+            "english": "cheekbones"
+        },
+        {
+            "serbian": "desna",
+            "english": "gum"
+        },
+        {
+            "serbian": "nepce",
+            "english": "palate"
+        },
+        {
+            "serbian": "nozdrve",
+            "english": "nostrils"
+        },
+        {
+            "serbian": "brada",
+            "english": "chin"
+        },
+        {
+            "serbian": "vilica",
+            "english": "jaw"
+        },
+        {
+            "serbian": "obraz",
+            "english": "cheek"
+        },
+        {
+            "serbian": "čelo",
+            "english": "forehead"
+        },
+        {
+            "serbian": "slepoočnica",
+            "english": "temple"
+        },
+        {
+            "serbian": "uho",
+            "english": "ear"
+        },
+        {
+            "serbian": "potiljak",
+            "english": "back of the head"
+        },
+        {
+            "serbian": "vrat",
+            "english": "neck"
+        },
+        {
+            "serbian": "grlo",
+            "english": "throat"
+        },
+        {
+            "serbian": "kosa",
+            "english": "hair"
+        },
+        {
+            "serbian": "frizura",
+            "english": "hairstyle, haircut"
+        },
+        {
+            "serbian": "perika",
+            "english": "wig"
+        },
+        {
+            "serbian": "brkovi",
+            "english": "mustache"
+        },
+        {
+            "serbian": "brada",
+            "english": "beard"
+        },
+        {
+            "serbian": "nositi",
+            "english": "to have (a beard, etc.)"
+        },
+        {
+            "serbian": "pletenica",
+            "english": "braid"
+        },
+        {
+            "serbian": "zalisci",
+            "english": "sideburns"
+        },
+        {
+            "serbian": "riđ",
+            "english": "red-haired"
+        },
+        {
+            "serbian": "sed",
+            "english": "gray (hair)"
+        },
+        {
+            "serbian": "čelav",
+            "english": "bald"
+        },
+        {
+            "serbian": "čela",
+            "english": "bald patch"
+        },
+        {
+            "serbian": "rep",
+            "english": "ponytail"
+        },
+        {
+            "serbian": "šiška",
+            "english": "bangs"
+        }
+    ],
+    "category": [
+        {
+            "serbian": "metal",
+            "english": "metal",
+            "type": "noun"
+        },
+        {
+            "serbian": "metalan",
+            "english": "metal",
+            "type": "adjective",
+        },
+        {
+            "serbian": "slitina",
+            "english": "alloy",
+            "type": "noun"
+        },
+        {
+            "serbian": "zlato",
+            "english": "gold",
+            "type": "noun"
+        },
+        {
+            "serbian": "zlatan",
+            "english": "golden",
+            "type": "adjective"
+        },
+        {
+            "serbian": "srebro",
+            "english": "silver",
+            "type": "noun"
+        },
+        {
+            "serbian": "srebrni",
+            "english": "silver",
+            "type": "adjective"
+        },
+        {
+            "serbian": "gvožđe",
+            "english": "iron",
+            "type": "noun"
+        },
+        {
+            "serbian": "gvozden",
+            "english": "iron",
+            "type": "adjective"
+        },
+        {
+            "serbian": "čelik",
+            "english": "steel",
+            "type": "noun"
+        },
+        {
+            "serbian": "čeličan",
+            "english": "steel",
+            "type": "adjective"
+        },
+        {
+            "serbian": "bakar",
+            "english": "copper",
+            "type": "noun"
+        },
+        {
+            "serbian": "aluminjum",
+            "english": "aluminium",
+            "type": "noun"
+        },
+        {
+            "serbian": "alumijumski",
+            "english": "aluminium",
+            "type": "adjective"
+        },
+        {
+            "serbian": "bronza",
+            "english": "bronze",
+            "type": "noun"
+        },
+        {
+            "serbian": "bronzan",
+            "english": "bronze",
+            "type": "adjective"
+        },
+        {
+            "serbian": "mesing",
+            "english": "brass"
+        },
+        {
+            "serbian": "nikl",
+            "english": "nickel"
+        },
+        {
+            "serbian": "platina",
+            "english": "platinum"
+        },
+        {
+            "serbian": "živa",
+            "english": "mercury"
+        },
+        {
+            "serbian": "kalaj",
+            "english": "tin"
+        },
+        {
+            "serbian": "olovo",
+            "english": "lead"
+        },
+        {
+            "serbian": "cink",
+            "english": "zinc"
+        }
+    ],
+    "category": [
+        {
+            "serbian": "",
+            "english": ""
         },
     ],
-    category: [
+    "category": [
         {
-            Serbian: '',
-            English: ''
-        },
-    ],
-    category: [
-        {
-            Serbian: '',
-            English: ''
-        },
-    ],
-    category: [
-        {
-            Serbian: '',
-            English: ''
-        },
-    ],
-    category: [
-        {
-            Serbian: '',
-            English: ''
+            "serbian": "",
+            "english": ""
         },
     ],
 }
