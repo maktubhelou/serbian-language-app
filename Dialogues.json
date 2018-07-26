@@ -1,0 +1,138 @@
+{
+    "Chapter 2" : {
+        "title": "Razgovor o putovanju",
+        "dialogue": [
+            {
+                "order": 1,
+                "speaker": "G. Antić",
+                "sentence": "Volite li putovati?"
+            },
+            {
+                "order": 2,
+                "speaker": "G. Cameron",
+                "sentence": "Da, jako volim. Često putujem. A vi? Volite li putovati?"
+            },
+            {
+                "order": 3,
+                "speaker": "G. Antić",
+                "sentence": "Volim, naročito vlakom kad imam vremena. Na žalost moram često poslovno putovati zrakoplovom."
+            },
+            {
+                "order": 4,
+                "speaker": "G. Cameron",
+                "sentence": "Rado se vozim autom, ali Zagreb je predaleko. Volim i ja putovati vlakom."
+            },
+            {
+                "order": 5,
+                "speaker": "G. Antić",
+                "sentence": "Da, volim gledati kroz prozor dok putujem, pomalo i spavati, a ponekad izlazim u hodnik da popušim cigaretu. Ugodno je."
+            },
+            {
+                "order": 6,
+                "speaker": "G. Cameron",
+                "sentence": "Slažem se! Ali čovjek rijetko ima vremena za to..."
+            }
+        ]
+    },
+    "Chapter 3" : {
+        "title": "Dolazak u Zagreb",
+        "dialogue": [
+            {
+                "order": 1,
+                "speaker": "Alan",
+                "sentence": "Evo nas u Zagrebu!"
+            },
+            {
+                "order": 2,
+                "speaker": "Antić",
+                "sentence": "Jeste li prvi put u Zagrebu?"
+            },
+            {
+                "order": 3,
+                "speaker": "Nora",
+                "sentence": "Jesmo. Jako se veselimo."
+            },
+            {
+                "order": 4,
+                "speaker": "Antić",
+                "sentence": "Zračna luka je mala. Formalnosti se brzo završavaju. Morate pokazati putovnice. Imate li što prijaviti?"
+            },
+            {
+                "order": 5,
+                "speaker": "Nora",
+                "sentence": "Nemamo. Prtljaga se uzima sa trake a onda se prelazi carinska kontrola, je li?"
+            },
+            {
+                "order": 6,
+                "speaker": "Antić",
+                "sentence": "Tako je"
+            },
+            {
+                "order": 7,
+                "speaker": "Nora",
+                "sentence": "Čeka li vas netko ovdje?"
+            },
+            {
+                "order": 8,
+                "speaker": "Antić",
+                "sentence": "Da. Moj sin. Upravo ga vidim tamo kod vrata!"
+            },
+            {
+                "order": 9,
+                "speaker": "Nora",
+                "sentence": "Pazi, Alane, stižu naše stvari! Idem naći kolica."
+            }
+        ]
+    },
+    "Chapter 4": {
+        "title": "",
+        "dialogue": [
+            {
+                "order": 1,
+                "speaker": "Alan",
+                "sentence": "Jeste li vi iz Zagreba, gospodine Antiću?"
+            },
+            {
+                "order": 2,
+                "speaker": "Antić",
+                "sentence": "Nisam, nego iz Karlovca, to je gradić nedaleko od Zagreba. Ali ostajem malo kod sina. Kamo vi sad idete? Imate li rezerviranu sobu?"
+            },
+            {
+                "order": 3,
+                "speaker": "Alan",
+                "sentence": "Imamo. Idemo u Hotel Palace. Mislim da je blizu autobusnog kolodvora."
+            },
+            {
+                "order": 4,
+                "speaker": "Antić",
+                "sentence": "Je. Ostajete li u Zagrebu?"
+            },
+            {
+                "order": 5,
+                "speaker": "Nora",
+                "sentence": "Nekolito dana. Ovjde imamo prijatelje. Zatim idemo na more."
+            },
+            {
+                "order": 6,
+                "speaker": "Antić",
+                "sentence": "Želim vam ugodan boravak. Jako mi je drago što smo se upoznali."
+            },
+            {
+                "order": 7,
+                "speaker": "Nora",
+                "sentence": "I nama. Ako dođete u Englesku evo naše adrese."
+            },
+            {
+                "order": 8,
+                "speaker": "Antić",
+                "sentence": "Hvala vam, nikad se ne zna! Svako dobro, do viđenja!"
+            },
+            {
+                "order": 9,
+                "speaker": "Alan and Nora",
+                "sentence": "Do viđenja!"
+            }
+        ]
+
+    }
+}

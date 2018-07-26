@@ -1,0 +1,38 @@
+{
+    "-am": {
+        "inf": "morati",
+        "ja": "moram",
+        "ti": "moraš",
+        "on/ona/ono": "mora",
+        "mi": "moramo",
+        "vi": "morate",
+        "oni/one/ona": "moraju"
+    },
+    "-im": {
+        "inf": "govoriti",
+        "ja": "govorim",
+        "ti": "govoriš",
+        "on/ona/ono": "govori",
+        "mi": "govorimo",
+        "vi": "govorite",
+        "oni/one/ona": "govore"
+    },
+    "-em": {
+        "inf": "razumjeti",
+        "ja": "razumijem",
+        "ti": "razumiješ",
+        "on/ona/ono": "razumije",
+        "mi": "razumijemo",
+        "vi": "razumijete",
+        "oni/one/ona": "razumiju"
+    },
+    "irr": {
+        "inf": "zvati (se)",
+        "ja": "zovem (se)",
+        "ti": "zoveš (se)",
+        "on/ona/ono": "zove (se)",
+        "mi": "zovemo (se)",
+        "vi": "zovete (se)",
+        "oni/one/ona": "zovu (se)"
+    }
+}
