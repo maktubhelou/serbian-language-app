@@ -1,5 +1,55 @@
 {
-    "Chapter 2" : {
+    "Chapter 1": {
+        "title": "Na putu",
+        "dialogue": [
+            {
+                "order": 1,
+                "speaker": "G. Cameron",
+                "sentence": "Dobar dan."
+            },
+            {
+                "order": 2,
+                "speaker": "G. Antić",
+                "sentence": "Dobar dan."
+            },
+            {
+                "order": 3,
+                "speaker": "G. Cameron",
+                "sentence": "Oprostite, govorite li engleski?"
+            },
+            {
+                "order": 4,
+                "speaker": "G. Antić",
+                "sentence": "Ne, na žalost. Razumijete li vi hrvatski?"
+            },
+            {
+                "order": 5,
+                "speaker": "G. Cameron",
+                "sentence": "Samo malo. Učim. Vi ste Hrvat, zar ne?"
+            },
+            {
+                "order": 6,
+                "speaker": "G. Antić",
+                "sentence": "Jesam. A jeste li vi Englezi?"
+            },
+            {
+                "order": 7,
+                "speaker": "G. Cameron",
+                "sentence": "Nismo. Ja sam Škot, zovem se Alan Cameron. A moja žena je Irkinja. Ona se zove Nora."
+            },
+            {
+                "order": 8,
+                "speaker": "G. Antić",
+                "sentence": "Ja sam Marko Antić. Drago mi je."
+            },
+            {
+                "order": 9,
+                "speaker": "G. Cameron",
+                "sentence": "I meni, također." 
+            }
+        ]
+    },
+    "Chapter 2": {
         "title": "Razgovor o putovanju",
         "dialogue": [
             {
@@ -34,7 +84,7 @@
             }
         ]
     },
-    "Chapter 3" : {
+    "Chapter 3": {
         "title": "Dolazak u Zagreb",
         "dialogue": [
             {
@@ -134,5 +184,60 @@
             }
         ]
 
+    },
+    "Chapter 5": {
+        "title": "Dolazak u hotel",
+        "dialogue": [
+            {
+                "order": 1,
+                "speaker": "Recepcioner",
+                "sentence": "Dobar dan, izvolite."
+            },
+            {
+                "order": 2,
+                "speaker": "Alan",
+                "sentence": "Dobar dan. Mi smo Alan i Nora Cameron."
+            },
+            {
+                "order": 3,
+                "speaker": "Recepcioner",
+                "sentence": "Imate li rezervacije?"
+            },
+            {
+                "order": 4,
+                "speaker": "Alan",
+                "sentence": "Imamo, za dvokrevetnu sobu."
+            },
+            {
+                "order": 5,
+                "speaker": "Recepcioner",
+                "sentence": "Samo trenutak. Evo. Vi ste u sobi 25 na drugom katu. Molim vaše putovnice. Evo vam ključ. Dječak ce vam ponijeti stvari. Idite liftom. Soba je na lijevoj strani hodnika kad izađete iz lifta."
+            },
+            {
+                "order": 6,
+                "speaker": "Nora",
+                "sentence": "Hvala. Ključ dajte mome suprugu: ja idem stepenicama jer ne volim liftove."
+            },
+            {
+                "order": 7,
+                "speaker": "Alan",
+                "sentence": "Torbu možeš dati dječaku. U sobi: Alan otvara vrata; tada stiže i Nora."
+            },
+            {
+                "order": 8,
+                "speaker": "Nora",
+                "sentence": "Da vidim. Oh, kakva lijepa velika soba! Ima i lijep pogled na park!"
+            },
+            {
+                "order": 9,
+                "speaker": "Djecak",
+                "sentence": "Stvari su vam ovdje u ormaru. A u kupaoni ima tuš, umivaonik i WC. Trebate li još nešto?"
+            },
+            {
+                "order": 10,
+                "speaker": "Alan",
+                "sentence": "Ne hvala. Sve je u redu."
+            }
+        ]
     }
 }

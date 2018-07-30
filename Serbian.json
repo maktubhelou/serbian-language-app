@@ -1,45 +1,159 @@
 {
     "greetings": [
-        "Zdravo!",
-        "Dobar dan!",
-        "Dobro jutro!",
-        "Dobro veče!",
-        "pozdravljati se",
-        "pozdrav (n)",
-        "pozdravljati (vt)",
-        "Kako si?",
-        "Kako ste?",
-        "šta",
-        "Do viđenja! (fam.)",
-        "Do skorog viđenja!",
-        "Zbogom!",
-        "Do viđenja! (form.)",
-        "opraštati se",
-        "Hvala!",
-        "Hvala lepo!",
-        "Izvolite!",
-        "Nema na čemu",
-        "Izvini",
-        "Izvinite",
-        "izvinjavati",
-        "izvinjavati se",
-        "izvinjavam se",
-        "Oprostite",
-        "opraštati",
-        "molim",
-        "Nemojte da zaboravite!",
-        "Svakako",
-        "Razume se ne!",
-        "Slažem se!",
-        "Dosta!"
+        {
+            "serbian": "Zdravo!",
+            "english": "Hello! (fam)"
+        },
+        {
+            "serbian": "Dobar dan!",
+            "english": "Hello! (form)"
+        },
+        {
+            "serbian": "Dobro jutro!",
+            "english": "Good morning!"
+        },
+        {
+            "serbian": "Dobro veče!",
+            "english": "Good evening!"
+        },
+        {
+            "serbian": "pozdravljati se",
+            "english": "to say hello"
+        },
+        {
+            "serbian": "pozdrav (n)",
+            "english": "greeting (m)"
+        },
+        {
+            "serbian": "pozdravljati (vt)",
+            "english": "to greet"
+        },
+        {
+            "serbian": "Kako si?",
+            "english": "How are you? (s) (fam)"
+        },
+        {
+            "serbian": "Kako ste?",
+            "english": "How are you? (pl) (form)"
+        },
+        {
+            "serbian": "šta",
+            "english": "what"
+        },
+        {
+            "serbian": "Do viđenja! (fam.)",
+            "english": "Goodbye!"
+        },
+        {
+            "serbian": "Do skorog viđenja!",
+            "english": "See you soon!"
+        },
+        {
+            "serbian": "Zbogom!",
+            "english": "Farewell!"
+        },
+        {
+            "serbian": "Do viđenja! (form.)",
+            "english": "Farewell!"
+        },
+        {
+            "serbian": "opraštati se",
+            "english": "to say goodbye"
+        },
+        {
+            "serbian": "Hvala!",
+            "english": "Thank you!"
+        },
+        {
+            "serbian": "Hvala lepo!",
+            "english": "Thank you very much!"
+        },
+        {
+            "serbian": "Izvolite!",
+            "english": "You're welcome!"
+        },
+        {
+            "serbian": "Nema na čemu",
+            "english": "Don't mention it!"
+        },
+        {
+            "serbian": "Izvini",
+            "english": "Excuse me!"
+        },
+        {
+            "serbian": "Izvinite",
+            "english": "Excuse me!"
+        },
+        {
+            "serbian": "izvinjavati",
+            "english": "to excuse"
+        },
+        {
+            "serbian": "izvinjavati se",
+            "english": "My apologize"
+        },
+        {
+            "serbian": "izvinjavam se",
+            "english": "My apologies."
+        },
+        {
+            "serbian": "Oprostite",
+            "english": "I'm sorry."
+        },
+        {
+            "serbian": "opraštati",
+            "english": "to forgive"
+        },
+        {
+            "serbian": "molim",
+            "english": "please"
+        },
+        {
+            "serbian": "Nemojte da zaboravite!",
+            "english": "Don't forget"
+        },
+        {
+            "serbian": "Svakako",
+            "english": "Certainly"
+        },
+        {
+            "serbian": "Razume se ne!",
+            "english": "Of course not!"
+        },
+        {
+            "serbian": "Slažem se!",
+            "english": "Ok! (I agree)"
+        },
+        {
+            "serbian": "Dosta!",
+            "english": "That's enough!"
+        }
     ],
     "address": [
-        "Gospodine",
-        "Gospđo",
-        "Devojko",
-        "Mladiću",
-        "Dečko",
-        "Devojčice"
+        {
+            "serbian": "Gospodine",
+            "english": "Mister, Sir"
+        },
+        {
+            "serbian": "Gospđo",
+            "english": "Ma'am"
+        },
+        {
+            "serbian": "Devojko",
+            "english": "Miss"
+        },
+        {
+            "serbian": "Mladiću",
+            "english": "Young Man"
+        },
+        {
+            "serbian": "Dečko",
+            "english": "Little boy"
+        },
+        {
+            "serbian": "Devojčice",
+            "english": "Little girl"
+        }
     ],
     "colors": [
         {
@@ -165,6 +279,47 @@
     ],
     "verbs": [
         {
+            "serbian": "biti",
+            "english": "to be",
+            "forms": {
+                "1-s": "(ja) sam",
+                "2-s": "(ti) si",
+                "3-s-m": "(on) je",
+                "3-s-f": "(ona) je",
+                "3-s-n": "(ono) je",
+                "1-p": "(mi) smo",
+                "2-p": "(vi) ste",
+                "3-p-m": "(oni) su",
+                "3-p-f": "(one) su",
+                "3-p-n": "(ona) su"
+            },
+            "forms (long)": {
+                "1-s": "jesam",
+                "2-s": "jesi",
+                "3-s": "je",
+                "1-p": "jesmo",
+                "2-p": "jeste",
+                "3-p": "jesu"
+            },
+            "forms (neg)": {
+                "1-s": "nisam",
+                "2-s": "nisi",
+                "3-s": "nije",
+                "1-p": "nismo",
+                "2-p": "niste",
+                "3-p": "nisu"
+            },
+            "phrases": [
+                "Ja sam Englez",
+                "Ona je Irkinja",
+                "Vi ste Hrvat",
+                "Mi smo putnici",
+                "Ja nisam umoran",
+                "On nije Hrvat",
+                "Mi nismo studenti"
+            ]
+        },
+        {
             "serbian": "savetovati",
             "english": "to advise"
         },
@@ -181,8 +336,19 @@
             "english": "to apologize"
         },
         {
+            "serbian": "piti",
+            "english": "to drink",
+            "phrases": [
+                "Da li studenti mnogo piju?",
+                "Piju li studenti mnogo?"
+            ]
+        },
+        {
             "serbian": "dolaziti",
-            "english": "to arrive"
+            "english": "to arrive", 
+            "phrases": [
+                "Dolazite li često ovamo?"
+            ]
         },
         {
             "serbian": "moliti se",
@@ -234,7 +400,11 @@
         },
         {
             "serbian": "zvati",
-            "english": "to call"
+            "english": "to call",
+            "phrases": [
+                "Kako se zovete?",
+                "Zovem se Slavko"
+            ]
         },
         {
             "serbian": "moći",
@@ -255,6 +425,13 @@
         {
             "serbian": "spuštati se",
             "english": "to come down"
+        },
+        {
+            "serbian": "pušiti",
+            "english": "to smoke",
+            "phrases": [
+                "Puši li vaša žena?"
+            ]
         },
         {
             "serbian": "ući",
@@ -491,6 +668,13 @@
         {
             "serbian": "tražiti",
             "english": "to search"
+        },
+        {
+            "serbian": "putovati",
+            "english": "to travel",
+            "phrases": [
+                "Da li često putujete?"
+            ]
         },
         {
             "serbian": "voleti",
@@ -730,7 +914,11 @@
         },
         {
             "serbian": "razumenevati",
-            "english": "to understand"
+            "english": "to understand",
+            "phrases": [
+                "Ne razumiju engleski.",
+                "Ne razumem."
+            ]
         },
         {
             "serbian": "objedinjavati",
@@ -764,7 +952,10 @@
     "questions": [
         {
             "serbian": "Ko?",
-            "english": "Who?"
+            "english": "Who?",
+            "phrases": [
+                "Tko ste vi?"
+            ]
         },
         {
             "serbian": "Šta?",
@@ -788,11 +979,17 @@
         },
         {
             "serbian": "Zašto?",
-            "english": "Why (aim)?"
+            "english": "Why (aim)?",
+            "phrases": [
+                "Zašto učite hrvatski?"
+            ]
         },
         {
             "serbian": "Što?",
-            "english": "Why (reason)?"
+            "english": "Why (reason)?",
+            "phrases": [
+                "Što radiš ovdje?"
+            ]
         },
         {
             "serbian": "Zbog čega?",
@@ -835,6 +1032,13 @@
             "english": "Whose?"
         }
     ],
+    "time": [
+        {
+            "serbian": "kasni",
+            "english": "late",
+            "phrase": "Na žalost, vlak kasni."
+        }
+    ],
     "days": [
         {
             "serbian": "ponedeljak",
@@ -870,7 +1074,8 @@
         },
         {
             "serbian": "sutra",
-            "english": "tomorrow"
+            "english": "tomorrow",
+            "phrase": "Mislim da Nora dolazi sutra."
         },
         {
             "serbian": "prekosutra",
@@ -1057,7 +1262,7 @@
         {
             "serbian": "keramički",
             "english": "ceramics (adj)"
-        },
+        }
     ],
     "containers": [
         {
@@ -1205,7 +1410,7 @@
         {
             "serbian": "starica",
             "english": "old woman"
-        },
+        }
     ],
     "body": [
         {
@@ -1469,15 +1674,15 @@
         {
             "serbian": "vi",
             "english": "you"
-        }
+        },
         {
             "serbian": "one",
             "english": "they (f)"
-        }
+        },
         {
             "serbian": "oni",
             "english": "they (m)"
-        }
+        },
         {
             "serbian": "ona (pl)",
             "english": "they (n)"
@@ -1695,7 +1900,7 @@
         {
             "serbian": "milijarda",
             "english": "one billion"
-        },
+        }
     ],
     "ordinal numbers": [
         {
@@ -1737,7 +1942,7 @@
         {
             "serbian": "deseti",
             "english": "tenth"
-        },
+        }
     ],
     "fractions": [
         {
@@ -1771,7 +1976,7 @@
         {
             "serbian": "tri četrvrtine",
             "english": "three quarters"
-        },
+        }
     ],
     "mathematical operations": [
         {
@@ -1809,7 +2014,7 @@
         {
             "serbian": "množiti (vi, vt)",
             "english": "to multiply"
-        },
+        }
     ],
     "months and seasons": [
         {
@@ -2462,7 +2667,7 @@
         {
             "serbian": "metalan",
             "english": "metal",
-            "type": "adjective",
+            "type": "adjective"
         },
         {
             "serbian": "slitina",
@@ -2563,17 +2768,285 @@
             "english": "zinc"
         }
     ],
-    "category": [
+    "clothes": [
         {
-            "serbian": "",
-            "english": ""
+            "serbian": "odeća",
+            "english": "clothes"
         },
-    ],
-    "category": [
         {
-            "serbian": "",
-            "english": ""
+            "serbian": "gornja odeća",
+            "english": "outer clothing"
         },
+        {
+            "serbian": "zimska odeća",
+            "english": "winter clothing"
+        },
+        {
+            "serbian": "kaput",
+            "english": "overcoat"
+        },
+        {
+            "serbian": "bunda",
+            "english": "fur coat"
+        },
+        {
+            "serbian": "kratka bunda",
+            "english": "fur jacket"
+        },
+        {
+            "serbian": "perjana jakna",
+            "english": "down coat"
+        },
+        {
+            "serbian": "jakna",
+            "english": "jacket (leater ~)"
+        },
+        {
+            "serbian": "kišni mantil",
+            "english": "raincoat"
+        },
+        {
+            "serbian": "nepromočan",
+            "english": "waterproof"
+        }
     ],
+    "speech": [
+        {
+            "serbian": "govor",
+            "english": "speech"
+        },
+        {
+            "serbian": "govoriti",
+            "english": "to speak",
+            "phrases": [
+                "Govori li on hrvatski?",
+                "Da li govoriš srpski?"
+            ]
+        },
+        {
+            "serbian": "razgovor",
+            "english": "conversation"
+        },
+        {
+            "serbian": "dogovor",
+            "english": "agreement"
+        },
+        {
+            "serbian": "dogovoriti se",
+            "english": "to come to an agreement"
+        },
+        {
+            "serbian": "ugovor",
+            "english": "contract"
+        }
+    ],
+    "language-nationality": [
+        {
+            "serbian": "Slovenija",
+            "english": "Slovenia"
+        },
+        {
+            "serbian": "slovenski",
+            "english": "Slovenian"
+        },
+        {
+            "serbian": "Slovenac",
+            "english": "slovenian",
+            "gender": "m"
+        },
+        {
+            "serbian": "Slovenka",
+            "english": "slovenian",
+            "gender": "f"
+        },
+        {
+            "serbian": "Bosna",
+            "english": "Bosnia"
+        },
+        {
+            "serbian": "bosanski",
+            "english": "Bosnian"
+        },
+        {
+            "serbian": "Bosanac",
+            "english": "bosnian",
+            "gender": "m"
+        },
+        {
+            "serbian": "Bosanka",
+            "english": "bosnian",
+            "gender": "f"
+        },
+        {
+            "serbian": "Hercegovina",
+            "english": "Herzegovina"
+        },
+        {
+            "serbian": "bosanski",
+            "english": "Bosnian"
+        },
+        {
+            "serbian": "Hercegovac",
+            "english": "herzegovinian",
+            "gender": "m"
+        },
+        {
+            "serbian": "Hercegovka",
+            "english": "herzegovinian",
+            "gender": "f"
+        },
+        {
+            "serbian": "Hrvatska",
+            "english": "Croatia"
+        },
+        {
+            "serbian": "hrvatski",
+            "english": "Croatian"
+        },
+        {
+            "serbian": "Hrvat",
+            "english": "croat",
+            "gender": "m"
+        },
+        {
+            "serbian": "Hrvatica",
+            "english": "Croat",
+            "gender": "f"
+        },
+        {
+            "serbian": "Srbija",
+            "english": "Serbia"
+        },
+        {
+            "serbian": "srpski",
+            "english": "Serbian"
+        },
+        {
+            "serbian": "Srbin",
+            "english": "serbian",
+            "gender": "m"
+        },
+        {
+            "serbian": "Srpkinja",
+            "english": "serbian",
+            "gender": "f"
+        },
+        {
+            "serbian": "Crna Gora",
+            "english": "Montenegro"
+        },
+        {
+            "serbian": "srpski",
+            "english": "Montenegrin"
+        },
+        {
+            "serbian": "Crnogorac",
+            "english": "montenegrin",
+            "gender": "m"
+        },
+        {
+            "serbian": "Crnogorka",
+            "english": "montenegrin",
+            "gender": "f"
+        },
+        {
+            "serbian": "Makedonija",
+            "english": "Macedonia"
+        },
+        {
+            "serbian": "makedonski",
+            "english": "Macedonian"
+        },
+        {
+            "serbian": "Makedonac",
+            "english": "macedonian",
+            "gender": "m"
+        },
+        {
+            "serbian": "Makedonka",
+            "english": "macedonian",
+            "gender": "f"
+        },
+        {
+            "serbian": "Grčka",
+            "english": "Greece"
+        },
+        {
+            "serbian": "grčki",
+            "english": "Greek"
+        },
+        {
+            "serbian": "Škotska",
+            "english": "Scotland"
+        },
+        {
+            "serbian": "Škotlandija",
+            "english": "Scotland"
+        },
+        {
+            "serbian": "Škot (Škotlanđanin)",
+            "english": "Scot (scottish)",
+            "gender": "m"
+        },
+        {
+            "serbian": "Škotlanđanka",
+            "english": "Scot (scottish)",
+            "gender": "f"
+        },
+        {
+            "serbian": "Irska",
+            "english": "Ireland"
+        },
+        {
+            "serbian": "Irlandija",
+            "english": "Ireland"
+        },
+        {
+            "serbian": "Irac (Irlanđanin)",
+            "english": "irish",
+            "gender": "m"
+        },
+        {
+            "serbian": "Irkinja (Irlanđanka)",
+            "english": "irish",
+            "gender": "f"
+        },
+        {
+            "serbian": "Vels (Wales)",
+            "english": "Wales"
+        },
+        {
+            "serbian": "velski",
+            "english": "Welsh"
+        },
+        {
+            "serbian": "Velšanin",
+            "english": "welsh",
+            "gender": "m"
+        },
+        {
+            "serbian": "Velšanka",
+            "english": "welsh",
+            "gender": "f"
+        },
+        {
+            "serbian": "Engleska",
+            "english": "England"
+        },
+        {
+            "serbian": "engleski",
+            "english": "English"
+        },
+        {
+            "serbian": "Englez",
+            "english": "english",
+            "gender": "m"
+        },
+        {
+            "serbian": "Engleskinja",
+            "english": "english",
+            "gender": "f"
+        }
+    ]
 }
 

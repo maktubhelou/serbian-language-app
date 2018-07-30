@@ -1,0 +1,21 @@
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" fill-rule="nonzero" stroke="#C6363C">
+            <g id="Group" transform="translate(-71.000000, -122.000000)">
+                <circle id="Oval" cx="413.5" cy="161.5" r="113.5"></circle>
+                <circle id="Oval-Copy" stroke-width="14" cx="413.5" cy="161.5" r="113.5"></circle>
+                <circle id="Oval-Copy-2" stroke-width="14" cx="438.5" cy="140.5" r="113.5"></circle>
+                <circle id="Oval-Copy-3" stroke-width="14" cx="462.5" cy="126.5" r="113.5"></circle>
+                <circle id="Oval-Copy-4" stroke-width="14" cx="479.5" cy="113.5" r="113.5"></circle>
+                <path d="M175.5,122.5 L464.5,669.5" id="Line" stroke-width="41" stroke-linecap="square"></path>
+                <path d="M114.5,122.5 L471.5,773.5" id="Line-Copy" stroke-width="41" stroke-linecap="square"></path>
+                <path d="M71.5,122.5 L430.5,797.5" id="Line-Copy-2" stroke-width="41" stroke-linecap="square"></path>
+                <path d="M0.5,127.5 L393.5,801.5" id="Line-Copy-3" stroke-width="41" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
