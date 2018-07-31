@@ -1,12 +1,14 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import reducers from './redux/'
 import MainScreen from './components/MainScreen';
-import vocab from './Serbian.json';
+import Header from './components/Header';
 
 import styles from './Themes/ApplicationStyles'
 
-const categories = Object.keys(vocab);
-const categoryContent = Object.values(vocab);
+const store = createStore(reducers);
 
 export default class App extends React.Component {
   constructor(props){
@@ -22,12 +24,12 @@ export default class App extends React.Component {
   }
   render() {
     return (
-      <View style={styles.screen.mainContainer}>
-        <View style={styles.header}>
-          <Text style={styles.headerText}>Category: {this.state.selectedCategory} </Text>
+      <Provider store={store}>
+        <View style={styles.screen.mainContainer}>
+          <Header selectedCategory={this.state.selectedCategory}/>
+          <MainScreen updateCategory={(title) => this.updateCategory(title)}/>
         </View>
-        <MainScreen updateCategory={(title) => this.updateCategory(title)}/>
-      </View>
+      </Provider>
     );
   }
 }

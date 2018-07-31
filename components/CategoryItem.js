@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, TouchableOpacity } from 'react-native'
+import { connect } from 'react-redux';
 import VocabList from './VocabList';
 import { Colors } from '../Themes/';
 
@@ -21,13 +22,13 @@ class CategoryItem extends Component {
     }
 
     render() {
-        const { title, content } = this.props;
+        const { title, content, currentCorrect } = this.props;
         return(
             <View style={this.state.current ? {opacity: 1} : {opacity: 0.6}}>
                 <TouchableOpacity
                     onPress={() => this.pressHandler(title)}
                 >
-                    <Text style={[styles.text, this.state.current && {backgroundColor: Colors.primaryBackgroundColor}]}>{title} | {content.length}</Text>
+                    <Text style={[styles.text, this.state.current && {backgroundColor: Colors.primaryBackgroundColor}]}>{title} | {content.length} | {currentCorrect} </Text>
                 </TouchableOpacity>
                 {this.state.current &&
                     <VocabList data={content}/>
@@ -37,4 +38,8 @@ class CategoryItem extends Component {
     }
 }
 
-export default CategoryItem;
+const mapStateToProps = state => ({
+    currentCorrect: state.currentCorrect
+});
+
+export default connect(mapStateToProps)(CategoryItem);
