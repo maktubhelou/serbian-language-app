@@ -1,7 +1,19 @@
 import React, { Component } from 'react'
-import { Text, TouchableOpacity } from 'react-native'
+import { Text, TouchableOpacity, TextInput } from 'react-native'
 
+import { Metrics } from '../Themes/'
 import styles from '../Styles/FlashCardStyles'
+
+const CheckAnswer = ( {english, compareAnswers }) => (
+    <TextInput 
+        style={{
+            width: ( Metrics.screenWidth / 2 ) - (3 * Metrics.marginHorizontal),
+            textAlign: 'center'}
+        } 
+        placeholder="answer..."
+        onSubmitEditing={e => compareAnswers(e.nativeEvent.text, english)}
+    />
+)
 
 export default class FlashCard extends Component {
   constructor(props) {
@@ -9,14 +21,39 @@ export default class FlashCard extends Component {
       this.state = {
           english: this.props.data.english,
           serbian: this.props.data.serbian,
-          flipped: false,
+          longPressed: false,
+          pressed: false,
+          correct: null,
+          rightAnswer: false
       }
   }
 
-  clickHandler() {
+  longPressHandler() {
       this.setState({
-          flipped: !this.state.flipped,
+          longPressed: !this.state.longPressed,
       });
+  }
+
+  compareAnswers(userAnswer, realAnswer) {
+    if (userAnswer === realAnswer) {
+        this.setState({
+            correct: true,
+        });
+    } else if (userAnswer !== realAnswer) {
+        this.setState({
+            correct: false,
+        });
+    }
+  }
+
+  checkResult() {
+    if ( this.state.correct === true) {
+        return 'correct'
+    } else if ( this.state.correct === false) {
+        return 'try again'
+    } else {
+        return ''
+    }
   }
 
   checkIndexIsEven (n) {
@@ -24,14 +61,17 @@ export default class FlashCard extends Component {
   }
 
   render() {
-    const {serbian, english, flipped} = this.state;
-    const display = !flipped ? serbian : english;
+    const {serbian, english, longPressed, correct } = this.state;
+    const display = !longPressed ? serbian : english;
+    const answer = this.checkResult();
     return (
-    <TouchableOpacity 
-        onPress={() => this.clickHandler()}
+    <TouchableOpacity
+        onLongPress={() => this.longPressHandler()}
         style={this.checkIndexIsEven(this.props.index) ? styles.flashCardLeft : styles.flashCardRight}
     >
         <Text style={styles.flashCardText}> {display} </Text>
+        <CheckAnswer english={english} compareAnswers={(realAnswer, userAnswer) => this.compareAnswers(realAnswer, userAnswer)}/>
+        <Text> { answer } </Text>
     </TouchableOpacity>
     )
   }

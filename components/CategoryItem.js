@@ -24,7 +24,9 @@ class CategoryItem extends Component {
         const { title, content } = this.props;
         return(
             <View style={this.state.current ? {opacity: 1} : {opacity: 0.6}}>
-                <TouchableOpacity onPress={() => this.pressHandler(title)}>
+                <TouchableOpacity
+                    onPress={() => this.pressHandler(title)}
+                >
                     <Text style={[styles.text, this.state.current && {backgroundColor: Colors.primaryBackgroundColor}]}>{title} | {content.length}</Text>
                 </TouchableOpacity>
                 {this.state.current &&

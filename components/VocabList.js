@@ -10,7 +10,7 @@ export default class VocabList extends Component {
         this.opacityValue = new Animated.Value(0)
         this.translateYValue = new Animated.Value(0)
         this.state = {
-            h: 0
+            h: 0,
         }
     }
   componentDidMount () {
