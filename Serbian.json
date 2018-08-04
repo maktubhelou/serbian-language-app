@@ -358,6 +358,8 @@
             "serbian": "pitati",
             "english": "to ask (a question)"
         },
+    ],
+    "verbs II": [
         {
             "serbian": "plašiti se, bojati se",
             "english": "to be afraid"
@@ -422,6 +424,8 @@
             "serbian": "birati",
             "english": "to choose"
         },
+    ],
+    "verbs III": [
         {
             "serbian": "spuštati se",
             "english": "to come down"
@@ -525,6 +529,8 @@
             "serbian": "padati",
             "english": "to fall"
         },
+    ],
+    "verbs IV": [
         {
             "serbian": "nalaziti",
             "english": "to find"
@@ -581,6 +587,8 @@
             "serbian": "večerati",
             "english": "to have dinner"
         },
+    ],
+    "verbs V": [
         {
             "serbian": "ručati",
             "english": "to have lunch"
@@ -661,6 +669,8 @@
             "serbian": "oslobođavati",
             "english": "to liberate"
         },
+    ],
+    "verbs VI": [
         {
             "serbian": "sviđati se",
             "english": "to like"
@@ -740,6 +750,8 @@
             "serbian": "rešavati",
             "english": "to solve"
         },
+    ],
+    "verbs VII": [
         {
             "serbian": "planirati",
             "english": "to plan"
@@ -816,6 +828,8 @@
             "serbian": "grditi",
             "english": "to scold"
         },
+    ],
+    "verbs VIII": [
         {
             "serbian": "videti",
             "english": "to see"
@@ -896,6 +910,8 @@
             "serbian": "prevoditi",
             "english": "to translate"
         },
+    ],
+    "verbs VIII": [
         {
             "serbian": "poveravati",
             "english": "to trust"

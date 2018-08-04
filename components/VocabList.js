@@ -8,61 +8,53 @@ export default class VocabList extends Component {
     constructor () {
     super()
         this.opacityValue = new Animated.Value(0)
-        this.translateYValue = new Animated.Value(0)
-        this.state = {
-            h: 0,
-        }
     }
   componentDidMount () {
-    this.animate()
+    this.open()
+  }
+  componentWillUnmount () {
+    this.close()
   }
 
-  animate () {
-    LayoutAnimation.spring();
-    this.setState({
-        h: 800
-    })
+  open () {
+    LayoutAnimation.linear();
     this.opacityValue.setValue(0)
+    Animated.timing(
+        this.opacityValue,
+        {
+        toValue: 1,
+        duration: 1000,
+        easing: Easing.linear
+        }).start();
+  }
+  close () {
+    LayoutAnimation.linear();
     Animated.parallel([
         Animated.timing(
           this.opacityValue,
           {
-            toValue: 1,
+            toValue: 0,
             duration: 1000,
-            easing: Easing.linear
-          }),
-        // Animated.timing(
-        //   this.translateYValue,
-        //   {
-        //     toValue: 1,
-        //     duration: 3000,
-        //     easing: Easing.easOutBack
-        //   })
+          })
     ]).start();
   }
 
   render() {
     const opacity = this.opacityValue.interpolate({
         inputRange: [0, 1],
-        outputRange: [0.5, 1]
+        outputRange: [0, 1]
     })
-    // const listPosition = this.translateYValue.interpolate({
-    //     inputRange: [0, 1],
-    //     outputRange: [-100, 0]
-    // })
     return (
-        <Animated.View style={[{opacity}
-        // , {transform: [{translateY: listPosition}]}
-        ]}>
+        <Animated.ScrollView style={{opacity}}>
             <FlatList
+                horizontal
                 style={[styles.flashCardList]}
-                numColumns="2"
                 data={this.props.data}
                 renderItem={({item, index}) =>
                     <FlashCard data={item} index={index} />}
-                keyExtractor={(item) => item.english}
+                keyExtractor={(item, index) => index.toString()}
             />
-        </Animated.View>
+        </Animated.ScrollView>
     )
   }
 }

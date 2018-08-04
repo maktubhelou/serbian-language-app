@@ -1,21 +1,30 @@
 import React, { Component } from 'react'
 import { Text, TouchableOpacity, TextInput } from 'react-native'
+import {connect} from 'react-redux';
 
-import { Metrics } from '../Themes/'
+import { Metrics, Colors } from '../Themes/'
 import styles from '../Styles/FlashCardStyles'
 
-const CheckAnswer = ( {english, compareAnswers }) => (
+const CheckAnswer = ( {english, compareAnswers, editable, value }) => (
     <TextInput 
         style={{
             width: ( Metrics.screenWidth / 2 ) - (3 * Metrics.marginHorizontal),
-            textAlign: 'center'}
-        } 
+            textAlign: 'center',
+            }
+        }
+        autoCapitalize="none"
+        autoCorrect={false}
+        underlineColorAndroid="transparent"
+        clearTextOnFocus={editable}
+        keyboardAppearance="dark"
         placeholder="answer..."
+        value={value}
+        placeholderTextColor={Colors.secondaryBackgroundColor}
         onSubmitEditing={e => compareAnswers(e.nativeEvent.text, english)}
     />
 )
 
-export default class FlashCard extends Component {
+class FlashCard extends Component {
   constructor(props) {
       super(props)
       this.state = {
@@ -24,7 +33,9 @@ export default class FlashCard extends Component {
           longPressed: false,
           pressed: false,
           correct: null,
-          rightAnswer: false
+          rightAnswer: false,
+          editable: true,
+          value: ''
       }
   }
 
@@ -36,8 +47,11 @@ export default class FlashCard extends Component {
 
   compareAnswers(userAnswer, realAnswer) {
     if (userAnswer === realAnswer) {
+        this.props.updateCorrect()
         this.setState({
             correct: true,
+            value: userAnswer,
+            editable: false
         });
     } else if (userAnswer !== realAnswer) {
         this.setState({
@@ -65,14 +79,24 @@ export default class FlashCard extends Component {
     const display = !longPressed ? serbian : english;
     const answer = this.checkResult();
     return (
-    <TouchableOpacity
+        <TouchableOpacity
         onLongPress={() => this.longPressHandler()}
         style={this.checkIndexIsEven(this.props.index) ? styles.flashCardLeft : styles.flashCardRight}
-    >
+        >
         <Text style={styles.flashCardText}> {display} </Text>
-        <CheckAnswer english={english} compareAnswers={(realAnswer, userAnswer) => this.compareAnswers(realAnswer, userAnswer)}/>
+
+        <CheckAnswer editable={this.state.editable} value={this.state.value} english={english} compareAnswers={(realAnswer, userAnswer) => this.compareAnswers(realAnswer, userAnswer)}/>
         <Text> { answer } </Text>
     </TouchableOpacity>
     )
   }
 }
+
+const mapStateToProps = state => ({
+});
+
+const mapDispatchToProps = dispatch => ({
+    updateCorrect: () => dispatch({ type: 'UPDATE_CORRECT'})
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(FlashCard);

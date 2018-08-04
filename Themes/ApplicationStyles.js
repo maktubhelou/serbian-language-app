@@ -6,8 +6,7 @@ const ApplicationStyles = {
     screen: {
         mainContainer: {
             flex: 1,
-            paddingTop: Metrics.doubleBaseMargin,
-            backgroundColor: Colors.secondaryBackgroundColor
+            backgroundColor: Colors.transparent
         }
     },
     backgroundImage: {
@@ -22,7 +21,6 @@ const ApplicationStyles = {
         backgroundColor: Colors.transparent,
     },
     list: {
-        marginTop: Metrics.doubleBaseMargin,
         backgroundColor: Colors.transparent
     },
     text: {

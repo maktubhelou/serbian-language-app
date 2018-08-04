@@ -1,6 +1,7 @@
 import {Dimensions, Platform} from 'react-native'
 
 const { width, height } = Dimensions.get('window')
+const flagAspectRatio = 320 / 213
 
 // Used via Metrics.baseMargin
 const metrics = {
@@ -28,6 +29,10 @@ const metrics = {
     medium: 40,
     large: 60,
     logo: 200
+  },
+  flag: {
+    width: 45, 
+    height: 45 / flagAspectRatio
   }
 }
 
